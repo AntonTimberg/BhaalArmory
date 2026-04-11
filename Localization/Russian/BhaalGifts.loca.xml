@@ -51,7 +51,7 @@
     <content contentuid="hbg_shadow_curse_desc" version="1">Вы защищены от проклятия теней.</content>
 
     <content contentuid="hbg_attack_adv_name" version="1">Взор Убийцы</content>
-    <content contentuid="hbg_attack_adv_desc" version="1">Все ваши атаки совершаются с преимуществом.</content>
+    <content contentuid="hbg_attack_adv_desc" version="1">Атаки по кровоточащим целям совершаются с преимуществом.</content>
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Уязвимость: Колющий</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">Эта цель уязвима к колющему урону из-за Ауры Убийства.</content>

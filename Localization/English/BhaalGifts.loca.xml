@@ -51,7 +51,7 @@
     <content contentuid="hbg_shadow_curse_desc" version="1">You are protected from the Shadow Curse.</content>
 
     <content contentuid="hbg_attack_adv_name" version="1">Murderer's Gaze</content>
-    <content contentuid="hbg_attack_adv_desc" version="1">All your attacks are made with Advantage.</content>
+    <content contentuid="hbg_attack_adv_desc" version="1">Attacks against Bleeding targets are made with Advantage.</content>
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Vulnerability: Piercing</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">This target is vulnerable to Piercing damage due to the Aura of Murder.</content>
