@@ -1,0 +1,4 @@
+build/
+tmp_extract/
+*.lsf.bak
+test_*.lsf

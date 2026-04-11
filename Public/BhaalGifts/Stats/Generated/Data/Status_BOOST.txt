@@ -1,0 +1,62 @@
+// ============================================================
+// BHAAL GIFTS — STATUSES
+// ============================================================
+
+// Aura of Murder — applied to self, applies vulnerability to nearby enemies
+new entry "BG_AURA_OF_MURDER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hbg_aura_murder_name"
+data "Description" "hbg_aura_murder_desc"
+data "Icon" "Spell_Necromancy_BestowCurse"
+data "FormatColor" "Necrotic"
+data "StackId" "BG_AURA_OF_MURDER"
+data "StackType" "Overwrite"
+data "AuraRadius" "3"
+data "AuraStatuses" "TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(BG_VULNERABLE_PIERCING,100,1)"
+data "StatusEffect" "28433b2f-01e6-4871-ab0c-f6ce78cd1814"
+data "ApplyEffect" "c0873536-30d7-4bc5-83cb-d94a6acbc7b8"
+data "Boosts" "GameplayLight(3,false,0.1)"
+
+// Red Sarevok-style projections with mirror-image removal logic
+new entry "BG_BHAAL_PROJECTION_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LOW_SAREVOK_ESSENCE_SENDAI_IMAGE1"
+data "DisplayName" "hbg_projections_name"
+data "Description" "hbg_projections_status_desc"
+data "Boosts" "AC(3)"
+data "RemoveConditions" "IsMiss()"
+data "RemoveEvents" "OnAttacked"
+
+new entry "BG_BHAAL_PROJECTION_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LOW_SAREVOK_ESSENCE_SENDAI_IMAGE2"
+data "DisplayName" "hbg_projections_name"
+data "Description" "hbg_projections_status_desc"
+data "Boosts" "AC(3)"
+data "RemoveConditions" "IsMiss() and not HasStatus('BG_BHAAL_PROJECTION_1', context.Source)"
+data "RemoveEvents" "OnAttacked"
+
+new entry "BG_BHAAL_PROJECTION_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LOW_SAREVOK_ESSENCE_SENDAI_IMAGE3"
+data "DisplayName" "hbg_projections_name"
+data "Description" "hbg_projections_status_desc"
+data "Boosts" "AC(3)"
+data "RemoveConditions" "IsMiss() and not HasStatus('BG_BHAAL_PROJECTION_1', context.Source) and not HasStatus('BG_BHAAL_PROJECTION_2', context.Source)"
+data "RemoveEvents" "OnAttacked"
+
+// Vulnerable to Piercing (applied to enemies by aura)
+new entry "BG_VULNERABLE_PIERCING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hbg_vuln_piercing_name"
+data "Description" "hbg_vuln_piercing_desc"
+data "Icon" "Status_Threatened"
+data "FormatColor" "Necrotic"
+data "StackId" "BG_VULNERABLE_PIERCING"
+data "StackType" "Overwrite"
+data "Boosts" "Resistance(Piercing,Vulnerable)"

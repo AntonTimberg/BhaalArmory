@@ -1,0 +1,12 @@
+// ============================================================
+// BHAAL GIFTS — DAGGER (Bloodthirst model)
+// ============================================================
+
+new entry "WPN_BhaalDagger"
+type "Weapon"
+using "WPN_Dagger"
+data "RootTemplate" "d5c7a9e1-3b2f-4d8a-6e0c-1f9a7b3d5e08"
+data "Rarity" "Legendary"
+data "BoostsOnEquipMainHand" "WeaponEnchantment(3);UnlockSpell(Target_BhaalCorpseExplosion)"
+data "DefaultBoosts" "DamageBonus(1d6,Necrotic)"
+data "PassivesOnEquip" "BG_IgnoreResistances;BG_DaggerOffhandBonus;BG_SilenceOnHit;BG_DaggerCritBonus;BG_DisarmImmunity"

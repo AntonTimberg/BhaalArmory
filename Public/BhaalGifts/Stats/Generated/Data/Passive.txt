@@ -1,0 +1,105 @@
+// ============================================================
+// BHAAL GIFTS — PASSIVES
+// ============================================================
+
+// --- RING PASSIVES ---
+
+new entry "BG_CritProtection"
+type "PassiveData"
+data "DisplayName" "hbg_crit_prot_name"
+data "Description" "hbg_crit_prot_desc"
+data "Icon" "PassiveFeature_BladeMastery"
+data "Properties" "Highlighted"
+data "Boosts" "IgnoreCriticalHits()"
+
+new entry "BG_CharmParalysisImmunity"
+type "PassiveData"
+data "DisplayName" "hbg_charm_para_name"
+data "Description" "hbg_charm_para_desc"
+data "Icon" "PassiveFeature_StillnessOfMind"
+data "Properties" "Highlighted"
+data "Boosts" "StatusImmunity(SG_Charmed);StatusImmunity(SG_Paralyzed)"
+
+// Heal on damage dealt
+new entry "BG_Lifesteal"
+type "PassiveData"
+data "DisplayName" "hbg_lifesteal_name"
+data "Description" "hbg_lifesteal_desc"
+data "Icon" "PassiveFeature_SongOfRest"
+data "Properties" "Highlighted"
+data "StatsFunctors" "RegainHitPoints(SELF,2d8)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "not Self() and not Dead() and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+
+// --- DAGGER PASSIVES ---
+
+new entry "BG_IgnoreResistances"
+type "PassiveData"
+data "DisplayName" "hbg_ignore_res_name"
+data "Description" "hbg_ignore_res_desc"
+data "Icon" "PassiveFeature_BrutalCritical"
+data "Properties" "Highlighted"
+data "Boosts" "IgnoreResistance(Piercing,Resistant);IgnoreResistance(Piercing,Immune);IgnoreResistance(Slashing,Resistant);IgnoreResistance(Slashing,Immune);IgnoreResistance(Bludgeoning,Resistant);IgnoreResistance(Bludgeoning,Immune);IgnoreResistance(Necrotic,Resistant);IgnoreResistance(Necrotic,Immune)"
+
+// +6 weapon damage from level 4, +4 AC when offhand empty
+new entry "BG_DaggerOffhandBonus"
+type "PassiveData"
+data "DisplayName" "hbg_offhand_bonus_name"
+data "Description" "hbg_offhand_bonus_desc"
+data "Icon" "PassiveFeature_DuelingFightingStyle"
+data "Properties" "Highlighted"
+data "Boosts" "IF(CharacterLevelGreaterThan(3)):CharacterWeaponDamage(6);IF(FightingStyle_Dueling(context.Source)):AC(4)"
+
+// Silence + Bleeding on hit
+new entry "BG_SilenceOnHit"
+type "PassiveData"
+data "DisplayName" "hbg_silence_hit_name"
+data "Description" "hbg_silence_hit_desc"
+data "Icon" "Spell_Illusion_Silence"
+data "Properties" "Highlighted"
+data "StatsFunctors" "ApplyStatus(SILENCED,100,2);ApplyStatus(BLEEDING,100,2)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "not Self() and not Dead()"
+
+// Disarm immunity
+new entry "BG_DisarmImmunity"
+type "PassiveData"
+data "DisplayName" "hbg_disarm_name"
+data "Description" "hbg_disarm_desc"
+data "Icon" "PassiveFeature_BladeMastery"
+data "Properties" "Highlighted"
+data "Boosts" "StatusImmunity(SG_Disarmed)"
+
+// -2 to crit threshold (crit on 18+)
+new entry "BG_DaggerCritBonus"
+type "PassiveData"
+data "DisplayName" "hbg_crit_bonus_name"
+data "Description" "hbg_crit_bonus_desc"
+data "Icon" "PassiveFeature_ImprovedCriticalHit"
+data "Properties" "Highlighted"
+data "Boosts" "ReduceCriticalAttackThreshold(2)"
+
+// --- AMULET PASSIVES ---
+
+new entry "BG_AuraOfMurder"
+type "PassiveData"
+data "DisplayName" "hbg_aura_murder_name"
+data "Description" "hbg_aura_murder_desc"
+data "Icon" "PassiveFeature_AuraOfProtection"
+data "Properties" "Highlighted"
+
+new entry "BG_AttackAdvantage"
+type "PassiveData"
+data "DisplayName" "hbg_attack_adv_name"
+data "Description" "hbg_attack_adv_desc"
+data "Icon" "PassiveFeature_SavageAttacker"
+data "Properties" "Highlighted"
+data "Boosts" "Advantage(AttackRoll)"
+
+new entry "BG_ShadowCurseImmunity"
+type "PassiveData"
+data "DisplayName" "hbg_shadow_curse_name"
+data "Description" "hbg_shadow_curse_desc"
+data "Icon" "PassiveFeature_AuraOfProtection"
+data "Properties" "Highlighted"
+data "Boosts" "Tag(ACT2_SHADOW_CURSE_IMMUNE)"

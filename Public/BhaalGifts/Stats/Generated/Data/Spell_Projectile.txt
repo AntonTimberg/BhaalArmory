@@ -1,0 +1,22 @@
+// ============================================================
+// BHAAL GIFTS — HELPER PROJECTILES
+// ============================================================
+
+// Explosion helper for Corpse Explosion spell — does the AoE damage
+new entry "Projectile_BhaalCorpseExplosion_Explosion"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "GROUND:ApplyStatus(BURNING,100,3)"
+data "AreaRadius" "4"
+data "ExplodeRadius" "4"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, 18)"
+data "SpellSuccess" "DealDamage(12d6,Fire,Magical);DealDamage(6d6,Necrotic,Magical)"
+data "SpellFail" "DealDamage((12d6)/2,Fire,Magical);DealDamage((6d6)/2,Necrotic,Magical)"
+data "TargetConditions" "not Dead()"
+data "Trajectories" "f5855e43-2e8f-4971-b8c2-7faa36e3381b"
+data "DisplayName" "hbg_corpse_explosion_name"
+data "Description" "hbg_corpse_explosion_desc"
+data "CastTextEvent" "Cast"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "IsHarmful;IsSpell"
+data "HitEffect" "41de42e1-56d0-4336-8b44-99fc38281525"

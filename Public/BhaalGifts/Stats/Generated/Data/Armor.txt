@@ -1,0 +1,23 @@
+// ============================================================
+// BHAAL GIFTS — RING
+// ============================================================
+
+new entry "ARM_BhaalRing"
+type "Armor"
+using "ARM_Ring"
+data "RootTemplate" "b3e8f1a2-4c7d-9e06-5f3b-8a2d1c6e4f09"
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "BG_CritProtection;BG_CharmParalysisImmunity"
+data "Boosts" "UnlockSpell(Shout_BhaalProjections)"
+
+// ============================================================
+// BHAAL GIFTS — AMULET OF BHAAL (Honor Mode compatible)
+// ============================================================
+
+new entry "ARM_BhaalAmulet_HM"
+type "Armor"
+using "ARM_Amulet"
+data "RootTemplate" "e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "BG_AuraOfMurder;BG_ShadowCurseImmunity;BG_AttackAdvantage"
+data "Boosts" "UnlockSpell(Shout_AuraOfMurder_Toggle);Ability(Constitution,4)"

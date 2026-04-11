@@ -1,0 +1,35 @@
+// ============================================================
+// BHAAL GIFTS — TARGET SPELLS
+// ============================================================
+
+// Corpse Explosion — target a dead body, explodes in AoE
+// Damages EVERYTHING in range: enemies, allies, caster
+new entry "Target_BhaalCorpseExplosion"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" ""
+data "SpellSchool" "Necromancy"
+data "Cooldown" "OncePerCombat"
+data "TargetRadius" "18"
+data "AreaRadius" "4"
+data "ExplodeRadius" "4"
+data "SpellProperties" "TARGET:SwitchDeathType(Explode);CreateExplosion(Projectile_BhaalCorpseExplosion_Explosion)"
+data "TargetConditions" "Dead()"
+data "Icon" "Spell_Necromancy_AnimateDead"
+data "DisplayName" "hbg_corpse_explosion_name"
+data "Description" "hbg_corpse_explosion_desc"
+data "TooltipDamageList" "DealDamage(12d6,Fire);DealDamage(6d6,Necrotic)"
+data "TooltipAttackSave" "Dexterity"
+data "CastSound" "Spell_Cast_Damage_Fireball_L5"
+data "TargetSound" "Spell_Impact_Damage_Fire_Fireball_L1to3"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;477bdade-9c91-4373-9fad-113c6c3b0bbf,,;06c28cf4-0e9b-4dad-8ed4-84780e7df33c,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;IsHarmful;CanAreaDamageEvade"
+data "HitAnimationType" "MagicalDamage_External"
+data "PrepareEffect" "fdbf8e88-c3a5-4151-a81d-429985de422c"
+data "CastEffect" "69aaec35-fb5f-489e-a4cc-47310f4377e9"
+data "PositionEffect" "41de42e1-56d0-4336-8b44-99fc38281525"
+data "TargetEffect" "41de42e1-56d0-4336-8b44-99fc38281525"

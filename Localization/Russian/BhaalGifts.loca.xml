@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentList>
+    <!-- ===== КОЛЬЦО БААЛА ===== -->
+    <content contentuid="hbg_ring_display_name" version="1">Печатка Избранного Баала</content>
+    <content contentuid="hbg_ring_display_desc" version="1">Тёмное кольцо, пульсирующее силой бога убийств. Владелец защищён от критических ударов, обворожения и паралича. Часть нанесённого урона возвращается в виде исцеления. Раз за бой может призвать кровавые проекции — иллюзорных двойников, подобных тем, что окружали Саревока.</content>
+
+    <content contentuid="hbg_crit_prot_name" version="1">Защита Баала</content>
+    <content contentuid="hbg_crit_prot_desc" version="1">Критические удары по вам считаются обычными ударами.</content>
+
+    <content contentuid="hbg_charm_para_name" version="1">Несокрушимая воля</content>
+    <content contentuid="hbg_charm_para_desc" version="1">Вы невосприимчивы к обворожению и параличу.</content>
+
+    <content contentuid="hbg_lifesteal_name" version="1">Кровавая жатва</content>
+    <content contentuid="hbg_lifesteal_desc" version="1">Восстанавливает здоровье в размере 1/5 от нанесённого урона.</content>
+
+    <content contentuid="hbg_projections_name" version="1">Проекции Баала</content>
+    <content contentuid="hbg_projections_desc" version="1">Призвать три кровавых иллюзорных двойника. Двойники поглощают атаки, направленные на вас, и дают +6 к КЗ. Раз за бой.</content>
+    <content contentuid="hbg_projections_extra" version="1">Создаёт 3 иллюзорных копии, каждая поглощает один удар.</content>
+    <content contentuid="hbg_projections_status_desc" version="1">Кровавые иллюзорные двойники защищают вас. +6 к классу брони. Каждая атака по вам может попасть в копию вместо вас.</content>
+
+    <!-- ===== КИНЖАЛ БААЛА ===== -->
+    <content contentuid="hbg_dagger_display_name" version="1">Кровожадность</content>
+    <content contentuid="hbg_dagger_display_desc" version="1">Проклятый кинжал бога убийств. Лезвие прорезает любую защиту — сопротивления и иммунитеты бессильны. Критический удар наносится при броске 18+ на кубике. Если вторая рука свободна — +4 к КЗ. Каждый удар накладывает молчание и кровотечение на цель.</content>
+
+    <content contentuid="hbg_ignore_res_name" version="1">Клинок Убийцы</content>
+    <content contentuid="hbg_ignore_res_desc" version="1">Игнорирует сопротивления и иммунитеты к урону.</content>
+
+    <content contentuid="hbg_offhand_bonus_name" version="1">Хватка Ассасина</content>
+    <content contentuid="hbg_offhand_bonus_desc" version="1">+6 к урону оружием (с 4 уровня). +4 к классу брони, если вторая рука свободна.</content>
+
+    <content contentuid="hbg_silence_hit_name" version="1">Молчание Жертвы</content>
+    <content contentuid="hbg_silence_hit_desc" version="1">Каждый удар этим оружием накладывает Молчание и Кровотечение на цель на 2 хода.</content>
+
+    <content contentuid="hbg_crit_bonus_name" version="1">Жажда крови</content>
+    <content contentuid="hbg_crit_bonus_desc" version="1">Критический удар наносится при броске 18+ на кубике (-2 к порогу).</content>
+
+    <content contentuid="hbg_disarm_name" version="1">Мёртвая хватка</content>
+    <content contentuid="hbg_disarm_desc" version="1">Вас невозможно обезоружить.</content>
+
+    <content contentuid="hbg_corpse_explosion_name" version="1">Подрыв трупа</content>
+    <content contentuid="hbg_corpse_explosion_desc" version="1">Взорвать мёртвое тело мощным некромантическим импульсом. Наносит 12d6 урона огнём и 6d6 урона некросом в радиусе 6м, поджигает цели. Раз за бой.</content>
+
+    <!-- ===== АМУЛЕТ БААЛА ===== -->
+    <content contentuid="hbg_amulet_display_name" version="1">Амулет Баала</content>
+    <content contentuid="hbg_amulet_display_desc" version="1">Амулет бога убийств. +4 к Выносливости. Аура Убийства (с 10 уровня) заставляет ближайших врагов стать уязвимыми к колющему урону. Защищает носителя от проклятия теней.</content>
+
+    <content contentuid="hbg_aura_murder_name" version="1">Аура Убийства</content>
+    <content contentuid="hbg_aura_murder_desc" version="1">Ближайшие враги (3м) становятся уязвимыми к колющему урону.</content>
+
+    <content contentuid="hbg_shadow_curse_name" version="1">Тень Баала</content>
+    <content contentuid="hbg_shadow_curse_desc" version="1">Вы защищены от проклятия теней.</content>
+
+    <content contentuid="hbg_attack_adv_name" version="1">Взор Убийцы</content>
+    <content contentuid="hbg_attack_adv_desc" version="1">Все ваши атаки совершаются с преимуществом.</content>
+
+    <content contentuid="hbg_vuln_piercing_name" version="1">Уязвимость: Колющий</content>
+    <content contentuid="hbg_vuln_piercing_desc" version="1">Эта цель уязвима к колющему урону из-за Ауры Убийства.</content>
+</contentList>

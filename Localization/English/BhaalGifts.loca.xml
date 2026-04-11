@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentList>
+    <!-- ===== RING OF BHAAL ===== -->
+    <content contentuid="hbg_ring_display_name" version="1">Seal of Bhaal's Chosen</content>
+    <content contentuid="hbg_ring_display_desc" version="1">A dark ring pulsing with the power of the Lord of Murder. The wearer is protected from critical hits, charming, and paralysis. A portion of damage dealt is returned as healing. Once per combat, can summon bloody projections — illusory duplicates like those that surrounded Sarevok.</content>
+
+    <content contentuid="hbg_crit_prot_name" version="1">Bhaal's Protection</content>
+    <content contentuid="hbg_crit_prot_desc" version="1">Critical hits against you become normal hits.</content>
+
+    <content contentuid="hbg_charm_para_name" version="1">Unbreakable Will</content>
+    <content contentuid="hbg_charm_para_desc" version="1">You are immune to Charmed and Paralyzed.</content>
+
+    <content contentuid="hbg_lifesteal_name" version="1">Bloody Harvest</content>
+    <content contentuid="hbg_lifesteal_desc" version="1">Heal for 1/5 of damage dealt.</content>
+
+    <content contentuid="hbg_projections_name" version="1">Bhaal's Projections</content>
+    <content contentuid="hbg_projections_desc" version="1">Summon three bloody illusory duplicates. The duplicates absorb attacks directed at you and grant +6 to AC. Once per combat.</content>
+    <content contentuid="hbg_projections_extra" version="1">Creates 3 illusory copies, each absorbs one hit.</content>
+    <content contentuid="hbg_projections_status_desc" version="1">Bloody illusory duplicates protect you. +6 to Armour Class. Attacks against you may hit a copy instead.</content>
+
+    <!-- ===== DAGGER OF BHAAL ===== -->
+    <content contentuid="hbg_dagger_display_name" version="1">Bloodthirst</content>
+    <content contentuid="hbg_dagger_display_desc" version="1">A cursed dagger of the Lord of Murder. Its blade cuts through any defense — resistances and immunities are meaningless. Critical hits land on 18+ on the die. If your off-hand is empty, gain +4 AC. Every hit silences and bleeds the target.</content>
+
+    <content contentuid="hbg_ignore_res_name" version="1">Assassin's Blade</content>
+    <content contentuid="hbg_ignore_res_desc" version="1">Ignores damage resistances and immunities.</content>
+
+    <content contentuid="hbg_offhand_bonus_name" version="1">Assassin's Grip</content>
+    <content contentuid="hbg_offhand_bonus_desc" version="1">+6 weapon damage (from level 4). +4 Armour Class when your off-hand is empty.</content>
+
+    <content contentuid="hbg_silence_hit_name" version="1">Victim's Silence</content>
+    <content contentuid="hbg_silence_hit_desc" version="1">Every hit with this weapon applies Silence and Bleeding to the target for 2 turns.</content>
+
+    <content contentuid="hbg_crit_bonus_name" version="1">Bloodlust</content>
+    <content contentuid="hbg_crit_bonus_desc" version="1">Critical hits land on a roll of 18+ (-2 to crit threshold).</content>
+
+    <content contentuid="hbg_disarm_name" version="1">Death Grip</content>
+    <content contentuid="hbg_disarm_desc" version="1">You cannot be disarmed.</content>
+
+    <content contentuid="hbg_corpse_explosion_name" version="1">Corpse Explosion</content>
+    <content contentuid="hbg_corpse_explosion_desc" version="1">Detonate a dead body in a necromantic blast. Deals 12d6 Fire and 6d6 Necrotic damage in a 6m radius, igniting targets. Once per combat.</content>
+
+    <!-- ===== AMULET OF BHAAL ===== -->
+    <content contentuid="hbg_amulet_display_name" version="1">Amulet of Bhaal</content>
+    <content contentuid="hbg_amulet_display_desc" version="1">Amulet of the Lord of Murder. +4 Constitution. The Aura of Murder (unlocked at level 10) makes nearby enemies vulnerable to Piercing damage. Protects the wearer from the Shadow Curse.</content>
+
+    <content contentuid="hbg_aura_murder_name" version="1">Aura of Murder</content>
+    <content contentuid="hbg_aura_murder_desc" version="1">Nearby enemies (3m) become vulnerable to Piercing damage.</content>
+
+    <content contentuid="hbg_shadow_curse_name" version="1">Shadow of Bhaal</content>
+    <content contentuid="hbg_shadow_curse_desc" version="1">You are protected from the Shadow Curse.</content>
+
+    <content contentuid="hbg_attack_adv_name" version="1">Murderer's Gaze</content>
+    <content contentuid="hbg_attack_adv_desc" version="1">All your attacks are made with Advantage.</content>
+
+    <content contentuid="hbg_vuln_piercing_name" version="1">Vulnerability: Piercing</content>
+    <content contentuid="hbg_vuln_piercing_desc" version="1">This target is vulnerable to Piercing damage due to the Aura of Murder.</content>
+</contentList>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="331"/>
+    <region id="Templates">
+        <node id="Templates">
+            <children>
+                <!-- RING — inherits from BASE_LOOT_Ring -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="b3e8f1a2-4c7d-9e06-5f3b-8a2d1c6e4f09"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalRing"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="0af630e0-82eb-4b83-baa2-e296f97a7a4e"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalRing"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_ring_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_ring_display_desc" version="1"/>
+                    <children>
+                        <node id="Bounds"/>
+                    </children>
+                </node>
+
+                <!-- DAGGER — inherits from Dolor's dagger visual template -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="d5c7a9e1-3b2f-4d8a-6e0c-1f9a7b3d5e08"/>
+                    <attribute id="Name" type="LSString" value="WPN_BhaalDagger"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="e8df5166-5a68-42ec-b71f-4dfb754f7aa4"/>
+                    <attribute id="Stats" type="FixedString" value="WPN_BhaalDagger"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_dagger_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_dagger_display_desc" version="1"/>
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_DROW_Dagger_Dolor_A"/>
+                    <children>
+                        <node id="Bounds"/>
+                    </children>
+                </node>
+
+                <!-- AMULET — inherits from QUEST_LOW_Bhaal_Amulet (Act 3 Bhaal Amulet) -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalAmulet_HM"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="16a632e2-45b1-4ff1-8250-513eb271abea"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalAmulet_HM"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_amulet_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_amulet_display_desc" version="1"/>
+                    <children>
+                        <node id="Bounds"/>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
