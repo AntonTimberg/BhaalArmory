@@ -21,3 +21,46 @@ data "RootTemplate" "e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"
 data "Rarity" "Legendary"
 data "PassivesOnEquip" "BG_AuraOfMurder;BG_ShadowCurseImmunity;BG_AttackAdvantage"
 data "Boosts" "UnlockSpell(Shout_AuraOfMurder_Toggle);Ability(Constitution,4)"
+
+// ============================================================
+// BHAAL GIFTS — BOOTS (Black Hand Armor visual)
+// ============================================================
+
+new entry "ARM_BhaalBoots"
+type "Armor"
+using "_Foot_Magic"
+data "RootTemplate" "a1c8d2e4-5f3b-4e7d-9a6c-1b8f2e4d7a09"
+data "Rarity" "Legendary"
+data "ArmorType" "Leather"
+data "Proficiency Group" "LightArmor"
+data "PassivesOnEquip" "BG_ShadowWalker;BG_Unstoppable"
+data "Boosts" "UnlockSpell(Target_BhaalShadowStep);Skill(Stealth,2)"
+data "Unique" "1"
+
+// ============================================================
+// BHAAL GIFTS — GLOVES (Black Hand Armor visual)
+// ============================================================
+
+new entry "ARM_BhaalGloves"
+type "Armor"
+using "_Hand_Magic_Metal"
+data "RootTemplate" "c2e7f5b8-4a6d-3c9e-8b1f-5d2a7c4e9b06"
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "BG_CritPoison;BG_BhaalSleightOfHand;BG_InfernalInsight;BG_UnhealingWounds"
+data "Unique" "1"
+
+// ============================================================
+// BHAAL GIFTS — BODY ARMOR (Black Hand Armor visual)
+// ============================================================
+
+new entry "ARM_BhaalBody"
+type "Armor"
+using "ARM_StuddedLeather_Body_2"
+data "RootTemplate" "f8b3a6d2-9c5e-4f1b-a7d3-2e8c6b4f1a05"
+data "Rarity" "Legendary"
+data "ArmorClass" "14"
+data "Ability Modifier Cap" ""
+data "PassivesOnEquip" "BG_ExoticMaterial;BG_DamageReduction"
+data "StatusOnEquip" "MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL"
+data "Boosts" "RollBonus(SavingThrow, 2)"
+data "Unique" "1"

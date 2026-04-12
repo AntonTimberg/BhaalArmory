@@ -55,4 +55,46 @@
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Уязвимость: Колющий</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">Эта цель уязвима к колющему урону из-за Ауры Убийства.</content>
+
+    <!-- ===== САПОГИ ===== -->
+    <content contentuid="hbg_boots_display_name" version="1">Поступь Жнеца</content>
+    <content contentuid="hbg_boots_display_desc" version="1">Сапоги, пропитанные тенью бога убийств. +2 к Скрытности. Вас невозможно сдвинуть с места, вы игнорируете сложную местность. Раз за короткий отдых можете телепортироваться сквозь тени.</content>
+
+    <content contentuid="hbg_unstoppable_name" version="1">Упорство Баала</content>
+    <content contentuid="hbg_unstoppable_desc" version="1">Вас не могут насильно сдвинуть с места заклинания и действия противника. На вас не действуют эффекты сложной местности и вас невозможно сбить с ног.</content>
+
+    <content contentuid="hbg_shadow_walker_name" version="1">Походка Теней</content>
+    <content contentuid="hbg_shadow_walker_desc" version="1">Вы можете шагнуть сквозь тень и оказаться в другом месте.</content>
+
+    <content contentuid="hbg_shadow_step_name" version="1">Шаг Сквозь Тени</content>
+    <content contentuid="hbg_shadow_step_desc" version="1">Телепортируйтесь в любую точку в пределах дальности, даже если путь к ней не виден напрямую. Раз за бой, бонусное действие.</content>
+
+    <!-- ===== ПЕРЧАТКИ ===== -->
+    <content contentuid="hbg_gloves_display_name" version="1">Хватка Палача</content>
+    <content contentuid="hbg_gloves_display_desc" version="1">Перчатки из кожи жертв, подаренные Баалом. При критическом ударе есть шанс наложить ядовитый эффект на цель. Атаки не позволяют цели восстанавливать здоровье. Даёт преимущество на Ловкость рук и +1 к атакам заклинаниями и их КС.</content>
+
+    <content contentuid="hbg_crit_poison_name" version="1">Яд Жертвоприношения</content>
+    <content contentuid="hbg_crit_poison_desc" version="1">При критическом ударе 50% шанс наложить Отравление на цель на 3 хода.</content>
+
+    <content contentuid="hbg_sleight_name" version="1">Пальцы Убийцы</content>
+    <content contentuid="hbg_sleight_desc" version="1">Преимущество на проверки Ловкости рук.</content>
+
+    <content contentuid="hbg_insight_name" version="1">Кровавая Интуиция</content>
+    <content contentuid="hbg_insight_desc" version="1">+1 к броскам атаки заклинаниями и к КС испытаний против заклинаний.</content>
+
+    <content contentuid="hbg_unhealing_name" version="1">Незаживающие Раны</content>
+    <content contentuid="hbg_unhealing_desc" version="1">Цель ваших атак не может восстанавливать здоровье в течение 2 ходов.</content>
+
+    <!-- ===== ДОСПЕХИ ===== -->
+    <content contentuid="hbg_body_display_name" version="1">Облачение Избранного</content>
+    <content contentuid="hbg_body_display_desc" version="1">Доспех, сотканный из теней и крови. КЗ 14 + полный модификатор Ловкости. Не мешает скрытности. Весь входящий урон уменьшается на 3, и вы получаете +2 ко всем спасброскам.</content>
+
+    <content contentuid="hbg_exotic_material_name" version="1">Тёмный Соблазн</content>
+    <content contentuid="hbg_exotic_material_desc" version="1">Добавьте свой полный модификатор Ловкости к классу брони. Эта броня не вызывает помеху при проверках Скрытности.</content>
+
+    <content contentuid="hbg_shadow_crit_name" version="1">Удар из Тени</content>
+    <content contentuid="hbg_shadow_crit_desc" version="1">Ваша следующая атака будет гарантированным критическим ударом.</content>
+
+    <content contentuid="hbg_dmg_reduction_name" version="1">Благословение Баала</content>
+    <content contentuid="hbg_dmg_reduction_desc" version="1">Весь входящий урон уменьшается на [1].</content>
 </contentList>

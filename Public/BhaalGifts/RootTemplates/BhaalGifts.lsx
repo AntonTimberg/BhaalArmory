@@ -33,6 +33,157 @@
                     </children>
                 </node>
 
+                <!-- BOOTS — invisible; uses generic base, no visual, empty equipment visuals -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="a1c8d2e4-5f3b-4e7d-9a6c-1b8f2e4d7a09"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalBoots"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalBoots"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="LevelName" type="FixedString" value=""/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
+                    <attribute id="VisualTemplate" type="FixedString" value=""/>
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Boots_Leather"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_boots_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_boots_display_desc" version="1"/>
+                    <children>
+                        <node id="Tags"/>
+                        <node id="Bounds"/>
+                        <node id="Equipment">
+                            <children>
+                                <node id="ShortHair"/>
+                                <node id="LongHair"/>
+                                <node id="WavyShortHair"/>
+                                <node id="WavyLongHair"/>
+                                <node id="CurlyShortHair"/>
+                                <node id="CurlyLongHair"/>
+                                <node id="DreadShortHair"/>
+                                <node id="DreadLongHair"/>
+                                <node id="AfroShortHair"/>
+                                <node id="AfroLongHair"/>
+                                <node id="Visuals"/>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Boots"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+
+                <!-- GLOVES — invisible; uses generic base, no visual, empty equipment visuals -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="c2e7f5b8-4a6d-3c9e-8b1f-5d2a7c4e9b06"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalGloves"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalGloves"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="LevelName" type="FixedString" value=""/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
+                    <attribute id="VisualTemplate" type="FixedString" value=""/>
+                    <attribute id="Icon" type="FixedString" value="Item_ARM_Gloves_Leather"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_gloves_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_gloves_display_desc" version="1"/>
+                    <children>
+                        <node id="Tags"/>
+                        <node id="Bounds"/>
+                        <node id="Equipment">
+                            <children>
+                                <node id="ShortHair"/>
+                                <node id="LongHair"/>
+                                <node id="WavyShortHair"/>
+                                <node id="WavyLongHair"/>
+                                <node id="CurlyShortHair"/>
+                                <node id="CurlyLongHair"/>
+                                <node id="DreadShortHair"/>
+                                <node id="DreadLongHair"/>
+                                <node id="AfroShortHair"/>
+                                <node id="AfroLongHair"/>
+                                <node id="Visuals"/>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Gloves"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+
+                <!-- BODY ARMOR — full copy of Black Hand Body visual structure -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="f8b3a6d2-9c5e-4f1b-a7d3-2e8c6b4f1a05"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalBody"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalBody"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="LevelName" type="FixedString" value=""/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
+                    <attribute id="VisualTemplate" type="FixedString" value="589b3bc4-0ff9-448c-9728-4200d3d1db28"/>
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_Bhaalist_Armor_Magic"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_body_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_body_display_desc" version="1"/>
+                    <children>
+                        <node id="Tags"/>
+                        <node id="Bounds"/>
+                        <node id="Equipment">
+                            <children>
+                                <node id="ShortHair"/>
+                                <node id="LongHair"/>
+                                <node id="WavyShortHair"/>
+                                <node id="WavyLongHair"/>
+                                <node id="CurlyShortHair"/>
+                                <node id="CurlyLongHair"/>
+                                <node id="DreadShortHair"/>
+                                <node id="DreadLongHair"/>
+                                <node id="AfroShortHair"/>
+                                <node id="AfroLongHair"/>
+                                <node id="Visuals">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58"/>
+                                            <children>
+                                                <node id="MapValue">
+                                                    <attribute id="Object" type="FixedString" value="79922020-d3aa-471d-bb97-1d6712c9ab97"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54"/>
+                                            <children>
+                                                <node id="MapValue">
+                                                    <attribute id="Object" type="FixedString" value="4be15192-763a-461f-b0c4-46c7875ab8a6"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05"/>
+                                            <children>
+                                                <node id="MapValue">
+                                                    <attribute id="Object" type="FixedString" value="589b3bc4-0ff9-448c-9728-4200d3d1db28"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11"/>
+                                            <children>
+                                                <node id="MapValue">
+                                                    <attribute id="Object" type="FixedString" value="362723c2-ed50-4ee2-97ae-6dfe4dae535a"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497"/>
+                                            <children>
+                                                <node id="MapValue">
+                                                    <attribute id="Object" type="FixedString" value="d71b51b0-dab7-4d2a-875e-d3dbbfe1870e"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Body"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+
                 <!-- AMULET — inherits from QUEST_LOW_Bhaal_Amulet (Act 3 Bhaal Amulet) -->
                 <node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"/>

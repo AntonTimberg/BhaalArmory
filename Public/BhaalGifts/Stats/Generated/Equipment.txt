@@ -36,3 +36,9 @@ add equipmentgroup
 add equipment entry "ARM_BhaalRing"
 add equipmentgroup
 add equipment entry "ARM_BhaalAmulet_HM"
+add equipmentgroup
+add equipment entry "ARM_BhaalBoots"
+add equipmentgroup
+add equipment entry "ARM_BhaalGloves"
+add equipmentgroup
+add equipment entry "ARM_BhaalBody"

@@ -55,4 +55,46 @@
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Vulnerability: Piercing</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">This target is vulnerable to Piercing damage due to the Aura of Murder.</content>
+
+    <!-- ===== BOOTS ===== -->
+    <content contentuid="hbg_boots_display_name" version="1">Reaper's Stride</content>
+    <content contentuid="hbg_boots_display_desc" version="1">Boots steeped in the shadow of the Lord of Murder. +2 to Stealth. You cannot be forcibly moved and ignore difficult terrain. Once per short rest, step through the shadows.</content>
+
+    <content contentuid="hbg_unstoppable_name" version="1">Bhaal's Resolve</content>
+    <content contentuid="hbg_unstoppable_desc" version="1">You cannot be forcibly moved by enemy spells or actions. Difficult terrain does not affect you, and you cannot be knocked prone.</content>
+
+    <content contentuid="hbg_shadow_walker_name" version="1">Shadow Walker</content>
+    <content contentuid="hbg_shadow_walker_desc" version="1">You can step through shadow to appear elsewhere.</content>
+
+    <content contentuid="hbg_shadow_step_name" version="1">Shadow Step</content>
+    <content contentuid="hbg_shadow_step_desc" version="1">Teleport to any point within range, even without line of sight. Once per combat, bonus action.</content>
+
+    <!-- ===== GLOVES ===== -->
+    <content contentuid="hbg_gloves_display_name" version="1">Executioner's Grip</content>
+    <content contentuid="hbg_gloves_display_desc" version="1">Gloves crafted from the skin of victims, blessed by Bhaal. Critical hits have a chance to poison the target. Your attacks prevent the target from regaining HP. Grants Advantage on Sleight of Hand and +1 to spell attack rolls and spell save DC.</content>
+
+    <content contentuid="hbg_crit_poison_name" version="1">Sacrificial Venom</content>
+    <content contentuid="hbg_crit_poison_desc" version="1">On a critical hit, 50% chance to apply Poisoned to the target for 3 turns.</content>
+
+    <content contentuid="hbg_sleight_name" version="1">Killer's Fingers</content>
+    <content contentuid="hbg_sleight_desc" version="1">Advantage on Sleight of Hand checks.</content>
+
+    <content contentuid="hbg_insight_name" version="1">Bloody Insight</content>
+    <content contentuid="hbg_insight_desc" version="1">+1 to spell attack rolls and spell save DC.</content>
+
+    <content contentuid="hbg_unhealing_name" version="1">Unhealing Wounds</content>
+    <content contentuid="hbg_unhealing_desc" version="1">Targets hit by your attacks cannot regain HP for 2 turns.</content>
+
+    <!-- ===== BODY ARMOR ===== -->
+    <content contentuid="hbg_body_display_name" version="1">Vestments of the Chosen</content>
+    <content contentuid="hbg_body_display_desc" version="1">Armour woven from shadow and blood. AC 14 + full Dexterity modifier. Does not impose disadvantage on Stealth. All incoming damage reduced by 3, and you gain +2 to all saving throws.</content>
+
+    <content contentuid="hbg_exotic_material_name" version="1">Dark Allure</content>
+    <content contentuid="hbg_exotic_material_desc" version="1">Add your full Dexterity modifier to your Armour Class. This armour does not impose disadvantage on Stealth checks.</content>
+
+    <content contentuid="hbg_shadow_crit_name" version="1">Strike from Shadow</content>
+    <content contentuid="hbg_shadow_crit_desc" version="1">Your next attack is a guaranteed critical hit.</content>
+
+    <content contentuid="hbg_dmg_reduction_name" version="1">Bhaal's Blessing</content>
+    <content contentuid="hbg_dmg_reduction_desc" version="1">All incoming damage is reduced by [1].</content>
 </contentList>
