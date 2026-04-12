@@ -10,7 +10,7 @@ data "DisplayName" "hbg_crit_prot_name"
 data "Description" "hbg_crit_prot_desc"
 data "Icon" "PassiveFeature_BladeMastery"
 data "Properties" "Highlighted"
-data "Boosts" "IgnoreCriticalHits()"
+data "Boosts" "CriticalHit(AttackTarget,Success,Never)"
 
 new entry "BG_CharmParalysisImmunity"
 type "PassiveData"
