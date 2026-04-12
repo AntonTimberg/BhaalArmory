@@ -31,6 +31,38 @@ data "StatsFunctors" "RegainHitPoints(SELF,2d8)"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "not Self() and not Dead() and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
 
+// --- RING 2 PASSIVES ---
+
+new entry "BG_ForceCrit"
+type "PassiveData"
+data "DisplayName" "hbg_force_crit_name"
+data "Description" "hbg_force_crit_desc"
+data "Icon" "PassiveFeature_ImprovedCriticalHit"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsCritical() and IsAttack()"
+data "StatsFunctors" "DealDamage(1d6, Force)"
+
+new entry "BG_CrawlerPoison"
+type "PassiveData"
+data "DisplayName" "hbg_crawler_poison_name"
+data "Description" "hbg_crawler_poison_desc"
+data "Icon" "Spell_Conjuration_PoisonSpray"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsCritical() and IsMeleeWeaponAttack() and not Dead(context.Target)"
+data "StatsFunctors" "ApplyStatus(POISON_CRAWLER_MUCUS_CONDITION, 20, 2)"
+
+new entry "BG_Unstoppable_Kill"
+type "PassiveData"
+data "DisplayName" "hbg_unstoppable_kill_name"
+data "Description" "hbg_unstoppable_kill_desc"
+data "Icon" "PassiveAction_ShieldMaster_Block"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Enemy()"
+data "StatsFunctors" "IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_2', context.Source)):ApplyStatus(SELF, DEATHSHEAD_UNSTOPPABLE_3, 100, -1);IF(HasStatus('DEATHSHEAD_UNSTOPPABLE_1', context.Source) and not HasStatus('DEATHSHEAD_UNSTOPPABLE_2', context.Source)):ApplyStatus(SELF, DEATHSHEAD_UNSTOPPABLE_2, 100, -1);IF(not HasStatus('DEATHSHEAD_UNSTOPPABLE_1', context.Source) and not HasStatus('DEATHSHEAD_UNSTOPPABLE_2', context.Source) and not HasStatus('DEATHSHEAD_UNSTOPPABLE_3', context.Source)):ApplyStatus(SELF, DEATHSHEAD_UNSTOPPABLE_1, 100, -1)"
+
 // --- DAGGER PASSIVES ---
 
 new entry "BG_IgnoreResistances"

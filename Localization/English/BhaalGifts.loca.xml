@@ -18,6 +18,22 @@
     <content contentuid="hbg_projections_extra" version="1">Creates 3 illusory copies, each absorbs one hit.</content>
     <content contentuid="hbg_projections_status_desc" version="1">Bloody illusory duplicates protect you. +6 to Armour Class. Attacks against you may hit a copy instead.</content>
 
+    <!-- ===== FINGER OF GOD ===== -->
+    <content contentuid="hbg_ring2_display_name" version="1">Finger of God</content>
+    <content contentuid="hbg_ring2_display_desc" version="1">A ring bearing the absolute will of the Lord of Murder. Critical hits deal extra force damage and may apply crawler mucus poison. Each kill grants a stack of Unstoppable. The weak can be erased from existence.</content>
+
+    <content contentuid="hbg_force_crit_name" version="1">Finger of Destruction</content>
+    <content contentuid="hbg_force_crit_desc" version="1">On a critical hit, deal an additional 1d6 Force damage.</content>
+
+    <content contentuid="hbg_crawler_poison_name" version="1">Crawler Mucus Poison</content>
+    <content contentuid="hbg_crawler_poison_desc" version="1">On a melee critical hit, 20% chance to apply Crawler Mucus (paralysis) to the target for 2 turns.</content>
+
+    <content contentuid="hbg_unstoppable_kill_name" version="1">Unstoppable</content>
+    <content contentuid="hbg_unstoppable_kill_desc" version="1">Each kill grants a stack of Unstoppable (max 3). Each stack absorbs one hit, making you invulnerable.</content>
+
+    <content contentuid="hbg_erasure_name" version="1">Erasure of the Weak</content>
+    <content contentuid="hbg_erasure_desc" version="1">Turn a weak enemy to dust. The target disintegrates. Only works on enemies whose level is 3 or more below yours. Once per combat.</content>
+
     <!-- ===== DAGGER OF BHAAL ===== -->
     <content contentuid="hbg_dagger_display_name" version="1">Bloodthirst</content>
     <content contentuid="hbg_dagger_display_desc" version="1">A cursed dagger of the Lord of Murder. Its blade cuts through any defense — resistances and immunities are meaningless. Critical hits land on 18+ on the die. If your off-hand is empty, gain +4 AC. Every hit silences and bleeds the target.</content>

@@ -35,6 +35,8 @@ add equipment entry "WPN_BhaalDagger"
 add equipmentgroup
 add equipment entry "ARM_BhaalRing"
 add equipmentgroup
+add equipment entry "ARM_BhaalRing2"
+add equipmentgroup
 add equipment entry "ARM_BhaalAmulet_HM"
 add equipmentgroup
 add equipment entry "ARM_BhaalBoots"

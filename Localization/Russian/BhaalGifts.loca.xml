@@ -18,6 +18,22 @@
     <content contentuid="hbg_projections_extra" version="1">Создаёт 3 иллюзорных копии, каждая поглощает один удар.</content>
     <content contentuid="hbg_projections_status_desc" version="1">Кровавые иллюзорные двойники защищают вас. +6 к классу брони. Каждая атака по вам может попасть в копию вместо вас.</content>
 
+    <!-- ===== ПЕРСТ БОГА ===== -->
+    <content contentuid="hbg_ring2_display_name" version="1">Перст Бога</content>
+    <content contentuid="hbg_ring2_display_desc" version="1">Кольцо, несущее абсолютную волю бога убийств. Критические удары наносят дополнительный силовой урон и могут наложить яд карабасана. Каждое убийство наделяет вас неудержимостью. Слабых можно стереть в прах.</content>
+
+    <content contentuid="hbg_force_crit_name" version="1">Перст Разрушения</content>
+    <content contentuid="hbg_force_crit_desc" version="1">При критическом ударе наносится дополнительно 1d6 силового урона.</content>
+
+    <content contentuid="hbg_crawler_poison_name" version="1">Яд Карабасана</content>
+    <content contentuid="hbg_crawler_poison_desc" version="1">При критическом ударе ближней атакой 20% шанс наложить яд карабасана (паралич) на цель на 2 хода.</content>
+
+    <content contentuid="hbg_unstoppable_kill_name" version="1">Неудержимость</content>
+    <content contentuid="hbg_unstoppable_kill_desc" version="1">За каждое убийство вы получаете заряд Неудержимости (максимум 3). Каждый заряд поглощает один удар, делая вас неуязвимым.</content>
+
+    <content contentuid="hbg_erasure_name" version="1">Стирание Слабых</content>
+    <content contentuid="hbg_erasure_desc" version="1">Обратите слабого врага в прах. Цель рассыпается, как при дезинтеграции. Работает только на врагах, чей уровень на 3 или более ниже вашего. Раз за бой.</content>
+
     <!-- ===== КИНЖАЛ БААЛА ===== -->
     <content contentuid="hbg_dagger_display_name" version="1">Кровожадность</content>
     <content contentuid="hbg_dagger_display_desc" version="1">Проклятый кинжал бога убийств. Лезвие прорезает любую защиту — сопротивления и иммунитеты бессильны. Критический удар наносится при броске 18+ на кубике. Если вторая рука свободна — +4 к КЗ. Каждый удар накладывает молчание и кровотечение на цель.</content>

@@ -11,6 +11,18 @@ data "PassivesOnEquip" "BG_CritProtection;BG_CharmParalysisImmunity"
 data "Boosts" "UnlockSpell(Shout_BhaalProjections)"
 
 // ============================================================
+// BHAAL GIFTS — RING 2: FINGER OF GOD
+// ============================================================
+
+new entry "ARM_BhaalRing2"
+type "Armor"
+using "ARM_Ring"
+data "RootTemplate" "b5d2e8f1-7a3c-4b9d-8e6f-2c1d5a4b7e03"
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "BG_ForceCrit;BG_CrawlerPoison;BG_Unstoppable_Kill"
+data "Unique" "1"
+
+// ============================================================
 // BHAAL GIFTS — AMULET OF BHAAL (Honor Mode compatible)
 // ============================================================
 

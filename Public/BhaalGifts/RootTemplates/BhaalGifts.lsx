@@ -18,6 +18,20 @@
                     </children>
                 </node>
 
+                <!-- RING 2: FINGER OF GOD -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="b5d2e8f1-7a3c-4b9d-8e6f-2c1d5a4b7e03"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalRing2"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="0af630e0-82eb-4b83-baa2-e296f97a7a4e"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalRing2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_ring2_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_ring2_display_desc" version="1"/>
+                    <children>
+                        <node id="Bounds"/>
+                    </children>
+                </node>
+
                 <!-- DAGGER — inherits from Dolor's dagger visual template -->
                 <node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="d5c7a9e1-3b2f-4d8a-6e0c-1f9a7b3d5e08"/>
@@ -114,7 +128,7 @@
                                     </children>
                                 </node>
                                 <node id="Slot">
-                                    <attribute id="Object" type="FixedString" value="Gloves"/>
+                                    <attribute id="Object" type="FixedString" value="Body"/>
                                 </node>
                             </children>
                         </node>
