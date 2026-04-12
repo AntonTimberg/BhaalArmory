@@ -42,3 +42,29 @@ add equipmentgroup
 add equipment entry "ARM_BhaalGloves"
 add equipmentgroup
 add equipment entry "ARM_BhaalBody"
+add equipmentgroup
+add equipment entry "ARM_BhaalHelmet"
+add equipmentgroup
+add equipment entry "ARM_BhaalCloak"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Body"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Skirt"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Sword"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Belt"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Belt_B"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Cloak"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Cloak_B"
+add equipmentgroup
+add equipment entry "ARM_Black_Hand_Cloak_C"
+add equipmentgroup
+add equipment entry "ARM_BH_Body_Camp_A"
+add equipmentgroup
+add equipment entry "ARM_BH_Body_Camp_B"
+add equipmentgroup
+add equipment entry "ARM_BH_Body_Camp_C"

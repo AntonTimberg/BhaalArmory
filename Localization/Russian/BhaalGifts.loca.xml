@@ -85,6 +85,38 @@
     <content contentuid="hbg_unhealing_name" version="1">Незаживающие Раны</content>
     <content contentuid="hbg_unhealing_desc" version="1">Цель ваших атак не может восстанавливать здоровье в течение 2 ходов.</content>
 
+    <!-- ===== ПЛАЩ ===== -->
+    <content contentuid="hbg_cloak_display_name" version="1">Саван Баала</content>
+    <content contentuid="hbg_cloak_display_desc" version="1">Плащ, сотканный из тени бога убийств. После убийства врага вы становитесь невидимым на 3 хода. Даёт дополнительное бонусное действие. Раз за бой можете раствориться в тенях.</content>
+
+    <content contentuid="hbg_kill_invis_name" version="1">Тень Смерти</content>
+    <content contentuid="hbg_kill_invis_desc" version="1">Убив врага, вы становитесь невидимым на 3 хода. Невидимость снимается при атаке или произнесении заклинания.</content>
+
+    <content contentuid="hbg_extra_bonus_name" version="1">Быстрые Руки</content>
+    <content contentuid="hbg_extra_bonus_desc" version="1">Вы получаете дополнительное бонусное действие.</content>
+
+    <content contentuid="hbg_dissolve_name" version="1">Раствориться в Тенях</content>
+    <content contentuid="hbg_dissolve_desc" version="1">Вы растворяетесь в тенях, становясь невидимым на 3 хода. Невидимость снимается при атаке или произнесении заклинания. Раз за бой, бонусное действие.</content>
+
+    <!-- ===== ШЛЕМ ===== -->
+    <content contentuid="hbg_helmet_display_name" version="1">Венец Избранного</content>
+    <content contentuid="hbg_helmet_display_desc" version="1">Корона из тёмного металла, пульсирующая волей бога убийств. Вас невозможно оглушить или напугать. Вы видите сквозь магическую тьму и невидимость. Критические удары наносятся легче.</content>
+
+    <content contentuid="hbg_infernal_sight_name" version="1">Взор Баала</content>
+    <content contentuid="hbg_infernal_sight_desc" version="1">Вы способны видеть в магической или обычной тьме на расстоянии [1]. Вас невозможно ослепить.</content>
+
+    <content contentuid="hbg_fearless_name" version="1">Бесстрашие</content>
+    <content contentuid="hbg_fearless_desc" version="1">Вас невозможно напугать или наложить на вас любой другой эффект, изменяющий эмоциональное состояние.</content>
+
+    <content contentuid="hbg_helmet_crit_name" version="1">Точность Убийцы</content>
+    <content contentuid="hbg_helmet_crit_desc" version="1">Порог критического удара снижается на 1.</content>
+
+    <content contentuid="hbg_stun_immune_name" version="1">Несокрушимый Разум</content>
+    <content contentuid="hbg_stun_immune_desc" version="1">Вас невозможно оглушить.</content>
+
+    <content contentuid="hbg_see_invis_name" version="1">Видение Невидимого</content>
+    <content contentuid="hbg_see_invis_desc" version="1">Вы способны видеть невидимых существ.</content>
+
     <!-- ===== ДОСПЕХИ ===== -->
     <content contentuid="hbg_body_display_name" version="1">Облачение Избранного</content>
     <content contentuid="hbg_body_display_desc" version="1">Доспех, сотканный из теней и крови. КЗ 14 + полный модификатор Ловкости. Не мешает скрытности. Весь входящий урон уменьшается на 3, и вы получаете +2 ко всем спасброскам.</content>

@@ -167,6 +167,71 @@ data "StatsFunctors" "ApplyStatus(BG_UNHEALING_WOUND,100,2)"
 
 // --- BODY ARMOR PASSIVES ---
 
+// --- CLOAK PASSIVES ---
+
+new entry "BG_KillInvisibility"
+type "PassiveData"
+data "DisplayName" "hbg_kill_invis_name"
+data "Description" "hbg_kill_invis_desc"
+data "Icon" "PassiveFeature_Assassinate_Initiative"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Enemy()"
+data "StatsFunctors" "ApplyStatus(SELF, INVISIBLE, 100, 3)"
+
+new entry "BG_ExtraBonusAction"
+type "PassiveData"
+data "DisplayName" "hbg_extra_bonus_name"
+data "Description" "hbg_extra_bonus_desc"
+data "Icon" "PassiveFeature_FastHands"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(BonusActionPoint, 1, 0)"
+
+// --- HELMET PASSIVES ---
+
+new entry "BG_InfernalSight"
+type "PassiveData"
+data "DisplayName" "hbg_infernal_sight_name"
+data "Description" "hbg_infernal_sight_desc"
+data "DescriptionParams" "Distance(24)"
+data "Icon" "PassiveFeature_DevilsSight"
+data "Properties" "Highlighted"
+data "Boosts" "DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);StatusImmunity(SG_Blinded)"
+
+new entry "BG_Fearless"
+type "PassiveData"
+data "DisplayName" "hbg_fearless_name"
+data "Description" "hbg_fearless_desc"
+data "Icon" "PassiveFeature_AuraOfCourage"
+data "Properties" "Highlighted"
+data "Boosts" "StatusImmunity(SG_Frightened);StatusImmunity(SG_Fleeing);StatusImmunity(HIDEOUS_LAUGHTER);StatusImmunity(SG_Confused)"
+
+new entry "BG_HelmetCritBonus"
+type "PassiveData"
+data "DisplayName" "hbg_helmet_crit_name"
+data "Description" "hbg_helmet_crit_desc"
+data "Icon" "PassiveFeature_ImprovedCriticalHit"
+data "Properties" "Highlighted"
+data "Boosts" "ReduceCriticalAttackThreshold(1)"
+
+new entry "BG_StunImmunity"
+type "PassiveData"
+data "DisplayName" "hbg_stun_immune_name"
+data "Description" "hbg_stun_immune_desc"
+data "Icon" "PassiveFeature_StillnessOfMind"
+data "Properties" "Highlighted"
+data "Boosts" "StatusImmunity(SG_Stunned)"
+
+new entry "BG_SeeInvisibility"
+type "PassiveData"
+data "DisplayName" "hbg_see_invis_name"
+data "Description" "hbg_see_invis_desc"
+data "Icon" "Spell_Divination_SeeInvisibility"
+data "Properties" "Highlighted"
+data "Boosts" "Tag(SEE_INVISIBILITY)"
+
+// --- BODY ARMOR PASSIVES ---
+
 new entry "BG_ExoticMaterial"
 type "PassiveData"
 data "DisplayName" "hbg_exotic_material_name"

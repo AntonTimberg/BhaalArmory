@@ -85,6 +85,38 @@
     <content contentuid="hbg_unhealing_name" version="1">Unhealing Wounds</content>
     <content contentuid="hbg_unhealing_desc" version="1">Targets hit by your attacks cannot regain HP for 2 turns.</content>
 
+    <!-- ===== CLOAK ===== -->
+    <content contentuid="hbg_cloak_display_name" version="1">Shroud of Bhaal</content>
+    <content contentuid="hbg_cloak_display_desc" version="1">A cloak woven from the shadow of the Lord of Murder. After killing an enemy, you become invisible for 3 turns. Grants an additional bonus action. Once per combat, dissolve into shadows.</content>
+
+    <content contentuid="hbg_kill_invis_name" version="1">Shadow of Death</content>
+    <content contentuid="hbg_kill_invis_desc" version="1">After killing an enemy, you become invisible for 3 turns. Invisibility ends when you attack or cast a spell.</content>
+
+    <content contentuid="hbg_extra_bonus_name" version="1">Fast Hands</content>
+    <content contentuid="hbg_extra_bonus_desc" version="1">You gain an additional bonus action.</content>
+
+    <content contentuid="hbg_dissolve_name" version="1">Dissolve into Shadows</content>
+    <content contentuid="hbg_dissolve_desc" version="1">You dissolve into the shadows, becoming invisible for 3 turns. Invisibility ends when you attack or cast a spell. Once per combat, bonus action.</content>
+
+    <!-- ===== HELMET ===== -->
+    <content contentuid="hbg_helmet_display_name" version="1">Crown of the Chosen</content>
+    <content contentuid="hbg_helmet_display_desc" version="1">A crown of dark metal pulsing with the will of the Lord of Murder. You cannot be stunned or frightened. You see through magical darkness and invisibility. Critical hits land more easily.</content>
+
+    <content contentuid="hbg_infernal_sight_name" version="1">Bhaal's Gaze</content>
+    <content contentuid="hbg_infernal_sight_desc" version="1">You can see in magical or mundane darkness up to [1]. You cannot be blinded.</content>
+
+    <content contentuid="hbg_fearless_name" version="1">Fearless</content>
+    <content contentuid="hbg_fearless_desc" version="1">You cannot be frightened or affected by any other emotion-altering effect.</content>
+
+    <content contentuid="hbg_helmet_crit_name" version="1">Assassin's Precision</content>
+    <content contentuid="hbg_helmet_crit_desc" version="1">Critical hit threshold reduced by 1.</content>
+
+    <content contentuid="hbg_stun_immune_name" version="1">Unbreakable Mind</content>
+    <content contentuid="hbg_stun_immune_desc" version="1">You cannot be stunned.</content>
+
+    <content contentuid="hbg_see_invis_name" version="1">See Invisibility</content>
+    <content contentuid="hbg_see_invis_desc" version="1">You can see invisible creatures.</content>
+
     <!-- ===== BODY ARMOR ===== -->
     <content contentuid="hbg_body_display_name" version="1">Vestments of the Chosen</content>
     <content contentuid="hbg_body_display_desc" version="1">Armour woven from shadow and blood. AC 14 + full Dexterity modifier. Does not impose disadvantage on Stealth. All incoming damage reduced by 3, and you gain +2 to all saving throws.</content>

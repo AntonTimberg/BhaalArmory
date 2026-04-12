@@ -33,7 +33,7 @@
                     </children>
                 </node>
 
-                <!-- BOOTS — invisible; uses generic base, no visual, empty equipment visuals -->
+                <!-- BOOTS — visual from Black Hand Skirt -->
                 <node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="a1c8d2e4-5f3b-4e7d-9a6c-1b8f2e4d7a09"/>
                     <attribute id="Name" type="LSString" value="ARM_BhaalBoots"/>
@@ -41,7 +41,7 @@
                     <attribute id="Type" type="FixedString" value="item"/>
                     <attribute id="LevelName" type="FixedString" value=""/>
                     <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
-                    <attribute id="VisualTemplate" type="FixedString" value=""/>
+                    <attribute id="VisualTemplate" type="FixedString" value="7fd34cea-3270-403e-9025-d0d1b0887783"/>
                     <attribute id="Icon" type="FixedString" value="Item_ARM_Boots_Leather"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hbg_boots_display_name" version="1"/>
                     <attribute id="Description" type="TranslatedString" handle="hbg_boots_display_desc" version="1"/>
@@ -60,7 +60,15 @@
                                 <node id="DreadLongHair"/>
                                 <node id="AfroShortHair"/>
                                 <node id="AfroLongHair"/>
-                                <node id="Visuals"/>
+                                <node id="Visuals">
+                                    <children>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="e7c49ee4-b789-43e3-a594-b6684601d993"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="93f89b2c-cada-4961-81a2-11ea7b3d4a1a"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="7fd34cea-3270-403e-9025-d0d1b0887783"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="bcd719c8-2c4a-4a3c-993a-d2d439460312"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="388f30af-c19a-4093-8630-ba7fcd83a200"/></node></children></node>
+                                    </children>
+                                </node>
                                 <node id="Slot">
                                     <attribute id="Object" type="FixedString" value="Boots"/>
                                 </node>
@@ -69,7 +77,7 @@
                     </children>
                 </node>
 
-                <!-- GLOVES — invisible; uses generic base, no visual, empty equipment visuals -->
+                <!-- GLOVES — visual from Black Hand Belt A -->
                 <node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="c2e7f5b8-4a6d-3c9e-8b1f-5d2a7c4e9b06"/>
                     <attribute id="Name" type="LSString" value="ARM_BhaalGloves"/>
@@ -77,7 +85,7 @@
                     <attribute id="Type" type="FixedString" value="item"/>
                     <attribute id="LevelName" type="FixedString" value=""/>
                     <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
-                    <attribute id="VisualTemplate" type="FixedString" value=""/>
+                    <attribute id="VisualTemplate" type="FixedString" value="9f5edfee-9060-4232-aa4f-2359030c1f03"/>
                     <attribute id="Icon" type="FixedString" value="Item_ARM_Gloves_Leather"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hbg_gloves_display_name" version="1"/>
                     <attribute id="Description" type="TranslatedString" handle="hbg_gloves_display_desc" version="1"/>
@@ -96,9 +104,61 @@
                                 <node id="DreadLongHair"/>
                                 <node id="AfroShortHair"/>
                                 <node id="AfroLongHair"/>
-                                <node id="Visuals"/>
+                                <node id="Visuals">
+                                    <children>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="68be9760-8d1e-4c1d-93fb-50efd1b38e18"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="1291aa5e-b862-4a31-a760-4bc2273c4f08"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="9f5edfee-9060-4232-aa4f-2359030c1f03"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="08b6f948-4c1b-4622-8961-35084ee9bd1a"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="7e457fef-78df-4e88-a94e-97160d2a6f07"/></node></children></node>
+                                    </children>
+                                </node>
                                 <node id="Slot">
                                     <attribute id="Object" type="FixedString" value="Gloves"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+
+                <!-- HELMET — visual from Black Hand Belt B -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="d4a1b7e3-8c5f-4d2a-9e6b-3f7c1a5d8e04"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalHelmet"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalHelmet"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="LevelName" type="FixedString" value=""/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
+                    <attribute id="VisualTemplate" type="FixedString" value="75192d14-9a29-46e5-a8ab-6676e3511d5c"/>
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_Bhaalist_Hat_Magic"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_helmet_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_helmet_display_desc" version="1"/>
+                    <children>
+                        <node id="Tags"/>
+                        <node id="Bounds"/>
+                        <node id="Equipment">
+                            <children>
+                                <node id="ShortHair"/>
+                                <node id="LongHair"/>
+                                <node id="WavyShortHair"/>
+                                <node id="WavyLongHair"/>
+                                <node id="CurlyShortHair"/>
+                                <node id="CurlyLongHair"/>
+                                <node id="DreadShortHair"/>
+                                <node id="DreadLongHair"/>
+                                <node id="AfroShortHair"/>
+                                <node id="AfroLongHair"/>
+                                <node id="Visuals">
+                                    <children>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="e5c94776-011d-4888-be25-c899c88bf1c4"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="81ac390f-a816-4067-a457-fd48b5be0240"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="75192d14-9a29-46e5-a8ab-6676e3511d5c"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="0b4099f4-8fb2-4257-80d4-a15bcfc11110"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="76631db0-bcb9-418f-b975-72ddb2cb0ee6"/></node></children></node>
+                                    </children>
+                                </node>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Helmet"/>
                                 </node>
                             </children>
                         </node>
@@ -178,6 +238,50 @@
                                 </node>
                                 <node id="Slot">
                                     <attribute id="Object" type="FixedString" value="Body"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+
+                <!-- CLOAK — visual from Black Hand Cloak (hood) -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="a7b2c4d6-5e8f-4a1b-9d3c-6f2e8a4b7c05"/>
+                    <attribute id="Name" type="LSString" value="ARM_BhaalCloak"/>
+                    <attribute id="Stats" type="FixedString" value="ARM_BhaalCloak"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="LevelName" type="FixedString" value=""/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="67a87879-533e-4f9b-8274-f5bd37748ace"/>
+                    <attribute id="VisualTemplate" type="FixedString" value="f6c75119-c148-4690-ab77-4b958231cbb0"/>
+                    <attribute id="Icon" type="FixedString" value="Generated_MAG_Shadow_FogOfCloudDisengage_Cloak_Magic"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_cloak_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_cloak_display_desc" version="1"/>
+                    <children>
+                        <node id="Tags"/>
+                        <node id="Bounds"/>
+                        <node id="Equipment">
+                            <children>
+                                <node id="ShortHair"/>
+                                <node id="LongHair"/>
+                                <node id="WavyShortHair"/>
+                                <node id="WavyLongHair"/>
+                                <node id="CurlyShortHair"/>
+                                <node id="CurlyLongHair"/>
+                                <node id="DreadShortHair"/>
+                                <node id="DreadLongHair"/>
+                                <node id="AfroShortHair"/>
+                                <node id="AfroLongHair"/>
+                                <node id="Visuals">
+                                    <children>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="3e07d0fa-9d70-459f-8e0c-235532e8c8b2"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="25f01e2c-7677-4b12-b49f-a93e9acda2a4"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="f6c75119-c148-4690-ab77-4b958231cbb0"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="db169072-5e4f-4ded-aaac-1fffd682bf9f"/></node></children></node>
+                                        <node id="Object"><attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-bac5-ff15696e6497"/><children><node id="MapValue"><attribute id="Object" type="FixedString" value="9ecc5ef5-0e86-4947-b3d3-693a8d228dc7"/></node></children></node>
+                                    </children>
+                                </node>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Cloak"/>
                                 </node>
                             </children>
                         </node>
