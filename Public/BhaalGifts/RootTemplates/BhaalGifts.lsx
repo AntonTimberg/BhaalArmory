@@ -297,6 +297,9 @@
                                 <node id="Slot">
                                     <attribute id="Object" type="FixedString" value="Cloak"/>
                                 </node>
+                                <node id="Slot">
+                                    <attribute id="Object" type="FixedString" value="Hair"/>
+                                </node>
                             </children>
                         </node>
                     </children>
