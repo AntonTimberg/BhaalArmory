@@ -48,3 +48,5 @@ add equipmentgroup
 add equipment entry "ARM_BhaalHelmet"
 add equipmentgroup
 add equipment entry "ARM_BhaalCloak"
+add equipmentgroup
+add equipment entry "WPN_BhaalBombs"

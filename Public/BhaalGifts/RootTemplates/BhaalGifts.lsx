@@ -305,6 +305,21 @@
                     </children>
                 </node>
 
+                <!-- BHAAL PISTOL — two-handed pistol (inherits SOB pistol visual) -->
+                <node id="GameObjects">
+                    <attribute id="MapKey" type="FixedString" value="f4a3c2b1-8e7d-4c5a-9b6f-3d1a5e8c7f04"/>
+                    <attribute id="Name" type="LSString" value="WPN_BhaalBombs"/>
+                    <attribute id="Type" type="FixedString" value="item"/>
+                    <attribute id="ParentTemplateId" type="FixedString" value="86cf2a59-0e68-4cb6-90d8-2e3010d6c24b"/>
+                    <attribute id="Stats" type="FixedString" value="WPN_BhaalBombs"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbg_bombs_display_name" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbg_bombs_display_desc" version="1"/>
+                    <attribute id="Icon" type="FixedString" value="JG33SOB_Icon_Gun"/>
+                    <children>
+                        <node id="Bounds"/>
+                    </children>
+                </node>
+
                 <!-- AMULET — inherits from QUEST_LOW_Bhaal_Amulet (Act 3 Bhaal Amulet) -->
                 <node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"/>

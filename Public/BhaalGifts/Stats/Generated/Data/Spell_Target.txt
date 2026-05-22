@@ -86,3 +86,37 @@ data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsSp
 data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "a0458d31-f8ef-419a-8708-5715c81e91d3"
 data "CastEffect" "52af7a1d-d5d9-4506-85ce-d124f1ef9ea5"
+
+// ============================================================
+// BHAAL GRENADE — thrown shrapnel grenade from WPN_BhaalBombs (pistol)
+// ============================================================
+
+// Shrapnel grenade — throw, level*2 piercing, bleeding 8 + deep wound 4
+new entry "Target_BhaalBomb_Shrapnel"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" ""
+data "SpellSchool" ""
+data "Cooldown" "OncePerCombat"
+data "TargetRadius" "18"
+data "AreaRadius" "4"
+data "ExplodeRadius" "4"
+data "SpellProperties" "CreateExplosion(Projectile_BhaalBomb_Shrapnel_Explosion)"
+data "TargetConditions" "not Character()"
+data "Icon" "Item_CONS_Bomb_Smokepowder"
+data "DisplayName" "hbg_bomb_shrapnel_name"
+data "Description" "hbg_bomb_shrapnel_desc"
+data "TooltipStatusApply" "ApplyStatus(BLEEDING,100,8);ApplyStatus(WOUND,100,4)"
+data "TooltipAttackSave" "Dexterity"
+data "CastSound" "Spell_Cast_Damage_Necrotic_InflictWounds_L1to3"
+data "TargetSound" "Spell_Impact_Damage_Necrotic_InflictWounds_L1to3"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "b1befe57-ee3e-4126-8c9d-3b6cec7eb3f4,,;f2803838-31cf-471b-85d1-92fa2d0eb7c2,,;4be0751c-9fca-4c35-9337-6bf8a321c516,,;86b52093-596c-4054-bb1d-2dbdfcdc4347,,;5b4905be-03fd-42fb-9652-c2d1c772f4d3,,;,,;9673b7c5-9928-44ce-ae4f-a85be2683981,,;e81ffae4-6be0-47fd-8502-48b9961004e9,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "IsSpell;IsHarmful;CanAreaDamageEvade"
+data "HitAnimationType" "PhysicalDamage"
+data "PrepareEffect" "ec80b3cd-29fd-40d2-a41a-b703db1b6f8e"
+data "CastEffect" "7bce304f-a409-495e-a092-012b727b0914"
+data "TargetEffect" "1d00a392-5444-4533-b125-d4cafc7e496a"

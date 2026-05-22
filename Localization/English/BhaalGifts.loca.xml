@@ -145,4 +145,11 @@
 
     <content contentuid="hbg_dmg_reduction_name" version="1">Bhaal's Blessing</content>
     <content contentuid="hbg_dmg_reduction_desc" version="1">All incoming damage is reduced by [1].</content>
+
+    <!-- ===== BHAAL BOMB BANDOLIER ===== -->
+    <content contentuid="hbg_bombs_display_name" version="1">Bhaal's Pistol</content>
+    <content contentuid="hbg_bombs_display_desc" version="1">A two-handed pistol consecrated to the Lord of Murder. Though wielded with both hands, it fires from a single palm. Grants the Shrapnel Grenade ability.</content>
+
+    <content contentuid="hbg_bomb_shrapnel_name" version="1">Shrapnel Grenade</content>
+    <content contentuid="hbg_bomb_shrapnel_desc" version="1">Hurl a shrapnel grenade dealing Piercing damage equal to twice your character level in a 4m radius. Targets suffer Bleeding (8 turns) and Deep Wound (4 turns). Dexterity DC 14. Once per combat.</content>
 </contentList>

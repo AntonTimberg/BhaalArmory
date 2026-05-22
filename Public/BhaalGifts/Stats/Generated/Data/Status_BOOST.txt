@@ -88,3 +88,13 @@ data "StackType" "Overwrite"
 data "Boosts" "CriticalHit(AttackTarget,Success,Always)"
 data "RemoveEvents" "OnAttack"
 data "ManagedStatusEffectType" "Positive"
+
+// ============================================================
+// BHAAL PISTOL — status override that redirects ranged attack to one-handed shot
+// ============================================================
+new entry "BG_GUN_MAINHAND_OVERRIDE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Boosts" "AttackSpellOverride(BG_Gun_Projectile_MainHandAttack,Projectile_MainHandAttack)"
