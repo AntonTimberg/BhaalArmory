@@ -7,9 +7,9 @@ type "Weapon"
 using "WPN_Dagger"
 data "RootTemplate" "d5c7a9e1-3b2f-4d8a-6e0c-1f9a7b3d5e08"
 data "Rarity" "Legendary"
-data "BoostsOnEquipMainHand" "WeaponEnchantment(3);UnlockSpell(Target_BhaalCorpseExplosion)"
+data "BoostsOnEquipMainHand" "WeaponEnchantment(3);UnlockSpell(Target_BhaalCorpseExplosion);UnlockSpell(Target_BhaalSlaughter)"
 data "DefaultBoosts" "DamageBonus(1d6,Necrotic)"
-data "PassivesOnEquip" "BG_IgnoreResistances;BG_DaggerOffhandBonus;BG_SilenceOnHit;BG_DaggerCritBonus;BG_DisarmImmunity"
+data "PassivesOnEquip" "BG_IgnoreResistances;BG_DaggerOffhandBonus;BG_SilenceOnHit;BG_DaggerCritBonus;BG_DisarmImmunity;BG_BhaalParry"
 
 // ============================================================
 // BHAAL PISTOL — two-handed pistol (inlined from SOB pistol stats)
@@ -30,5 +30,5 @@ data "Weapon Properties" "Ammunition;Loading;Dippable;Twohanded"
 data "Proficiency Group" "HandCrossbows;MartialWeapons"
 data "Rarity" "Legendary"
 data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical);CannotBeDisarmed();IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(11)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(11)):WeaponEnchantment(4)"
-data "BoostsOnEquipMainHand" "UnlockSpell(Target_BhaalBomb_Shrapnel);UnlockSpell(Target_BhaalBomb_DemolitionBullet)"
+data "BoostsOnEquipMainHand" "UnlockSpell(Target_BhaalBomb_Shrapnel);UnlockSpell(Target_BhaalBomb_ExecutionerBullet);UnlockSpell(Shout_BhaalBomb_SmokeBomb)"
 data "StatusOnEquip" "BG_GUN_MAINHAND_OVERRIDE"

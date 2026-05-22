@@ -31,7 +31,7 @@ type "Armor"
 using "ARM_Amulet"
 data "RootTemplate" "e9f1b3a5-7c2d-4e6f-8a0b-3d5c1e7f9a02"
 data "Rarity" "Legendary"
-data "PassivesOnEquip" "BG_AuraOfMurder;BG_ShadowCurseImmunity;BG_AttackAdvantage"
+data "PassivesOnEquip" "BG_AuraOfMurder;BG_ShadowCurseImmunity;BG_AttackAdvantage;BG_BhaalFavor;BG_Lifesteal"
 data "Boosts" "UnlockSpell(Shout_AuraOfMurder_Toggle);Ability(Constitution,4)"
 
 // ============================================================
@@ -58,7 +58,7 @@ type "Armor"
 using "_Hand_Magic_Metal"
 data "RootTemplate" "c2e7f5b8-4a6d-3c9e-8b1f-5d2a7c4e9b06"
 data "Rarity" "Legendary"
-data "PassivesOnEquip" "BG_CritPoison;BG_BhaalSleightOfHand;BG_InfernalInsight;BG_UnhealingWounds"
+data "PassivesOnEquip" "BG_CritPoison;BG_BhaalSleightOfHand;BG_InfernalInsight;BG_UnhealingWounds;BG_BhaalTempo"
 data "Unique" "1"
 
 // ============================================================
@@ -91,7 +91,7 @@ using "ARM_Cloak"
 data "RootTemplate" "a7b2c4d6-5e8f-4a1b-9d3c-6f2e8a4b7c05"
 data "Rarity" "Legendary"
 data "PassivesOnEquip" "BG_KillInvisibility;BG_ExtraBonusAction"
-data "Boosts" "UnlockSpell(Shout_BhaalDissolve)"
+data "Boosts" "UnlockSpell(Shout_BhaalDissolve);Initiative(3)"
 data "Unique" "1"
 
 // ============================================================

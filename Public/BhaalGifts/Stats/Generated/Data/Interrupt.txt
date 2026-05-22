@@ -1,0 +1,17 @@
+// ============================================================
+// BHAAL GIFTS — INTERRUPTS
+// ============================================================
+
+// Reaction parry: when an enemy misses us with a melee attack and our off-hand is empty,
+// spend a reaction to counter-attack with main hand (vanilla Riposte pattern, no SuperiorityDie).
+new entry "BG_Interrupt_BhaalParry"
+type "InterruptData"
+using "Interrupt_Riposte"
+data "DisplayName" "hbg_parry_name"
+data "Description" "hbg_parry_desc"
+data "Icon" "Action_Riposte"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsMeleeAttack() and IsMiss() and not HasStatus('INVISIBILITY') and HasLastAttackTriggered() and FightingStyle_Dueling(context.Observer)"
+data "Properties" "UseSpell(SWAP,Target_MainHandAttack,true,true,true);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_RIPOSTE,100,0)"
+data "Cost" "ReactionActionPoint:1"
+data "Cooldown" "OncePerTurn"
+data "InterruptDefaultValue" "Enabled;Ask"

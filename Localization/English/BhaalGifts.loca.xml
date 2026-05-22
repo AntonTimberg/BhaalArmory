@@ -11,7 +11,7 @@
     <content contentuid="hbg_charm_para_desc" version="1">You are immune to Charmed and Paralyzed.</content>
 
     <content contentuid="hbg_lifesteal_name" version="1">Bloody Harvest</content>
-    <content contentuid="hbg_lifesteal_desc" version="1">Heal for 1/5 of damage dealt.</content>
+    <content contentuid="hbg_lifesteal_desc" version="1">Each weapon hit restores 2–4 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
     <content contentuid="hbg_projections_name" version="1">Bhaal's Projections</content>
     <content contentuid="hbg_projections_desc" version="1">Summon three bloody illusory duplicates. The duplicates absorb attacks directed at you and grant +6 to AC. Once per combat.</content>
@@ -23,16 +23,13 @@
     <content contentuid="hbg_ring2_display_desc" version="1">A ring bearing the absolute will of the Lord of Murder. Critical hits deal extra force damage and may apply crawler mucus poison. Each kill grants a stack of Unstoppable. The weak can be erased from existence.</content>
 
     <content contentuid="hbg_force_crit_name" version="1">Finger of Destruction</content>
-    <content contentuid="hbg_force_crit_desc" version="1">On a critical hit, deal an additional 1d6 Force damage.</content>
+    <content contentuid="hbg_force_crit_desc" version="1">On a critical hit, deal an additional 1d6 &lt;LSTag Tooltip="DamageForce"&gt;Force&lt;/LSTag&gt; damage. Requires level 8.</content>
 
     <content contentuid="hbg_crawler_poison_name" version="1">Crawler Mucus Poison</content>
     <content contentuid="hbg_crawler_poison_desc" version="1">On a melee critical hit, 20% chance to apply Crawler Mucus (paralysis) to the target for 2 turns.</content>
 
     <content contentuid="hbg_unstoppable_kill_name" version="1">Unstoppable</content>
     <content contentuid="hbg_unstoppable_kill_desc" version="1">Each kill grants a stack of Unstoppable (max 3). Each stack absorbs one hit, making you invulnerable.</content>
-
-    <content contentuid="hbg_erasure_name" version="1">Erasure of the Weak</content>
-    <content contentuid="hbg_erasure_desc" version="1">Turn a weak enemy to dust. The target disintegrates. Only works on enemies whose level is 3 or more below yours. Once per combat.</content>
 
     <!-- ===== DAGGER OF BHAAL ===== -->
     <content contentuid="hbg_dagger_display_name" version="1">Bloodthirst</content>
@@ -56,6 +53,12 @@
     <content contentuid="hbg_corpse_explosion_name" version="1">Corpse Explosion</content>
     <content contentuid="hbg_corpse_explosion_desc" version="1">Detonate a dead body in a necromantic blast. Deals 12d6 Fire and 6d6 Necrotic damage in a 6m radius, igniting targets. Once per combat.</content>
 
+    <content contentuid="hbg_slaughter_name" version="1">Bhaal's Slaughter</content>
+    <content contentuid="hbg_slaughter_desc" version="1">Unleash a frenzy of four strikes with your main-hand weapon. Each successful hit deals an additional 5d10 weapon-type damage and triggers weapon riders. Available from level 8. Once per combat.</content>
+
+    <content contentuid="hbg_parry_name" version="1">Bhaal's Parry</content>
+    <content contentuid="hbg_parry_desc" version="1">When an enemy misses you with a melee attack and your off-hand is empty, spend your reaction to counter-attack with your main hand. Once per turn.</content>
+
     <!-- ===== AMULET OF BHAAL ===== -->
     <content contentuid="hbg_amulet_display_name" version="1">Amulet of Bhaal</content>
     <content contentuid="hbg_amulet_display_desc" version="1">Amulet of the Lord of Murder. +4 Constitution. The Aura of Murder (unlocked at level 10) makes nearby enemies vulnerable to Piercing damage. Protects the wearer from the Shadow Curse.</content>
@@ -71,6 +74,11 @@
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Vulnerability: Piercing</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">This target is vulnerable to Piercing damage due to the Aura of Murder.</content>
+
+    <content contentuid="hbg_favor_name" version="1">Bhaal's Favor</content>
+    <content contentuid="hbg_favor_desc" version="1">Each enemy you slay grants a stack of Bhaal's Favor: +1 to attack rolls per stack. Cleared on a long rest.</content>
+    <content contentuid="hbg_favor_status_name" version="1">Bhaal's Favor</content>
+    <content contentuid="hbg_favor_status_desc" version="1">+1 to your weapon attack rolls per stack.</content>
 
     <!-- ===== BOOTS ===== -->
     <content contentuid="hbg_boots_display_name" version="1">Reaper's Stride</content>
@@ -100,6 +108,11 @@
 
     <content contentuid="hbg_unhealing_name" version="1">Unhealing Wounds</content>
     <content contentuid="hbg_unhealing_desc" version="1">Targets hit by your attacks cannot regain HP for 2 turns.</content>
+
+    <content contentuid="hbg_tempo_name" version="1">Bhaal's Tempo</content>
+    <content contentuid="hbg_tempo_desc" version="1">On a critical hit, 25% chance to instantly regain one main &lt;LSTag Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. Once per turn.</content>
+    <content contentuid="hbg_tempo_status_name" version="1">Bhaal's Tempo</content>
+    <content contentuid="hbg_tempo_status_desc" version="1">You regained an action point from a critical strike.</content>
 
     <!-- ===== CLOAK ===== -->
     <content contentuid="hbg_cloak_display_name" version="1">Shroud of Bhaal</content>
@@ -148,11 +161,14 @@
 
     <!-- ===== BHAAL BOMB BANDOLIER ===== -->
     <content contentuid="hbg_bombs_display_name" version="1">Bhaal's Pistol</content>
-    <content contentuid="hbg_bombs_display_desc" version="1">A pistol consecrated to the Lord of Murder. Grants the Shrapnel Grenade and Demolition Bullet abilities.</content>
+    <content contentuid="hbg_bombs_display_desc" version="1">A pistol consecrated to the Lord of Murder. Grants the Shrapnel Grenade, Executioner's Bullet, and Smoke Bomb abilities.</content>
 
     <content contentuid="hbg_bomb_shrapnel_name" version="1">Shrapnel Grenade</content>
     <content contentuid="hbg_bomb_shrapnel_desc" version="1">Hurl a shrapnel grenade dealing Piercing damage equal to twice your character level in a 4m radius. Targets suffer Bleeding (8 turns) and Deep Wound (4 turns). Dexterity DC 14. Once per combat.</content>
 
-    <content contentuid="hbg_bomb_demolition_name" version="1">Demolition Bullet</content>
-    <content contentuid="hbg_bomb_demolition_desc" version="1">Fire an explosive bullet at the target, dealing 2d6 Piercing damage on hit and triggering a Fireball-strength detonation at their location (8d6 Fire, 5m radius, Dexterity DC 14 for half). Once per combat.</content>
+    <content contentuid="hbg_bomb_executioner_name" version="1">Executioner's Bullet</content>
+    <content contentuid="hbg_bomb_executioner_desc" version="1">A shot to the temple of an enemy whose health is ≤ 30%. The target is reduced to dust, taking 6d8 Piercing and 4d6 Necrotic damage. Once per combat, bonus action. Available from level 5.</content>
+
+    <content contentuid="hbg_bomb_smoke_name" version="1">Smoke Bomb</content>
+    <content contentuid="hbg_bomb_smoke_desc" version="2">Drop a smoke grenade at your feet. Creates a 4m fog cloud for 2 turns. You become Invisible for 3 turns, and enemies inside the cloud are Blinded for 2 turns. Once per combat, bonus action. Available from level 3.</content>
 </contentList>

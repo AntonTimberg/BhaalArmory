@@ -3,3 +3,13 @@ tmp_extract/
 *.lsf.bak
 test_*.lsf
 *.pak
+
+# Plan files (Context Engineering workflow)
+PLAN.md
+TODO.md
+DECISIONS.md
+EVIDENCE.md
+logs/
+
+# Claude Code local settings
+.claude/

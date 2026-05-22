@@ -27,9 +27,9 @@ data "DisplayName" "hbg_lifesteal_name"
 data "Description" "hbg_lifesteal_desc"
 data "Icon" "PassiveFeature_SongOfRest"
 data "Properties" "Highlighted"
-data "StatsFunctors" "RegainHitPoints(SELF,2d8)"
-data "StatsFunctorContext" "OnAttack"
-data "Conditions" "not Self() and not Dead() and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsWeaponAttack() and not Dead(context.Target)"
+data "StatsFunctors" "RegainHitPoints(SELF,1d3+1)"
 
 // --- RING 2 PASSIVES ---
 
@@ -40,7 +40,7 @@ data "Description" "hbg_force_crit_desc"
 data "Icon" "PassiveFeature_ImprovedCriticalHit"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsCritical() and IsMeleeWeaponAttack() and CharacterLevelGreaterThan(3)"
+data "Conditions" "IsCritical() and IsMeleeWeaponAttack() and CharacterLevelGreaterThan(7)"
 data "StatsFunctors" "DealDamage(1d6, Force)"
 
 new entry "BG_CrawlerPoison"
@@ -71,7 +71,7 @@ data "DisplayName" "hbg_ignore_res_name"
 data "Description" "hbg_ignore_res_desc"
 data "Icon" "PassiveFeature_BrutalCritical"
 data "Properties" "Highlighted"
-data "Boosts" "IgnoreResistance(Piercing,Resistant);IgnoreResistance(Piercing,Immune);IgnoreResistance(Slashing,Resistant);IgnoreResistance(Slashing,Immune);IgnoreResistance(Bludgeoning,Resistant);IgnoreResistance(Bludgeoning,Immune);IgnoreResistance(Necrotic,Resistant);IgnoreResistance(Necrotic,Immune)"
+data "Boosts" "IgnoreResistance(Piercing,Resistant);IgnoreResistance(Necrotic,Resistant)"
 
 // +6 weapon damage from level 4, +4 AC when offhand empty
 new entry "BG_DaggerOffhandBonus"
@@ -105,6 +105,15 @@ data "Icon" "PassiveFeature_BladeMastery"
 data "Properties" "Highlighted"
 data "Boosts" "StatusImmunity(SG_Disarmed)"
 
+// Reaction Parry: empty off-hand, melee miss → counter-attack via Interrupt
+new entry "BG_BhaalParry"
+type "PassiveData"
+data "DisplayName" "hbg_parry_name"
+data "Description" "hbg_parry_desc"
+data "Icon" "PassiveFeature_Riposte"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(BG_Interrupt_BhaalParry)"
+
 // -2 to crit threshold (crit on 18+)
 new entry "BG_DaggerCritBonus"
 type "PassiveData"
@@ -130,6 +139,17 @@ data "Description" "hbg_attack_adv_desc"
 data "Icon" "PassiveFeature_SavageAttacker"
 data "Properties" "Highlighted"
 data "Boosts" "IF(HasStatus('BLEEDING',context.Target)):Advantage(AttackRoll)"
+
+// Bhaal's Favor: each kill grants a +1 attack-roll stack (cleared on long rest)
+new entry "BG_BhaalFavor"
+type "PassiveData"
+data "DisplayName" "hbg_favor_name"
+data "Description" "hbg_favor_desc"
+data "Icon" "PassiveFeature_SavageAttacker"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow() and Enemy()"
+data "StatsFunctors" "ApplyStatus(SELF, BG_BHAAL_FAVOR, 100, -1)"
 
 new entry "BG_ShadowCurseImmunity"
 type "PassiveData"
@@ -188,6 +208,17 @@ data "Description" "hbg_insight_desc"
 data "Icon" "PassiveFeature_ArcaneMastery"
 data "Properties" "Highlighted"
 data "Boosts" "RollBonus(RangedSpellAttack,1);RollBonus(MeleeSpellAttack,1);SpellSaveDC(1)"
+
+// Bhaal's Tempo: 25% chance on crit to refund a main action point (via token status), once per turn
+new entry "BG_BhaalTempo"
+type "PassiveData"
+data "DisplayName" "hbg_tempo_name"
+data "Description" "hbg_tempo_desc"
+data "Icon" "PassiveFeature_FastHands"
+data "Properties" "Highlighted;OncePerTurn"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsCritical() and IsAttack() and not Dead(context.Target)"
+data "StatsFunctors" "ApplyStatus(SELF, BG_BHAAL_TEMPO_TOKEN, 25, 1)"
 
 // Unhealing wounds: targets cannot regain HP for 2 turns on hit
 new entry "BG_UnhealingWounds"

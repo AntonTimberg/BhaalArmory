@@ -11,7 +11,7 @@
     <content contentuid="hbg_charm_para_desc" version="1">Вы невосприимчивы к обворожению и параличу.</content>
 
     <content contentuid="hbg_lifesteal_name" version="1">Кровавая жатва</content>
-    <content contentuid="hbg_lifesteal_desc" version="1">Восстанавливает здоровье в размере 1/5 от нанесённого урона.</content>
+    <content contentuid="hbg_lifesteal_desc" version="1">Каждый удар оружием восстанавливает 2–4 &lt;LSTag Tooltip="HitPoints"&gt;ОЗ&lt;/LSTag&gt;.</content>
 
     <content contentuid="hbg_projections_name" version="1">Проекции Баала</content>
     <content contentuid="hbg_projections_desc" version="1">Призвать три кровавых иллюзорных двойника. Двойники поглощают атаки, направленные на вас, и дают +6 к КЗ. Раз за бой.</content>
@@ -23,16 +23,13 @@
     <content contentuid="hbg_ring2_display_desc" version="1">Кольцо, несущее абсолютную волю бога убийств. Критические удары наносят дополнительный силовой урон и могут наложить яд карабасана. Каждое убийство наделяет вас неудержимостью. Слабых можно стереть в прах.</content>
 
     <content contentuid="hbg_force_crit_name" version="1">Перст Разрушения</content>
-    <content contentuid="hbg_force_crit_desc" version="1">При критическом ударе наносится дополнительно 1d6 силового урона.</content>
+    <content contentuid="hbg_force_crit_desc" version="1">При критическом ударе наносится дополнительно 1к6 &lt;LSTag Tooltip="DamageForce"&gt;силового&lt;/LSTag&gt; урона. Требуется 8 уровень.</content>
 
     <content contentuid="hbg_crawler_poison_name" version="1">Яд Карабасана</content>
     <content contentuid="hbg_crawler_poison_desc" version="1">При критическом ударе ближней атакой 20% шанс наложить яд карабасана (паралич) на цель на 2 хода.</content>
 
     <content contentuid="hbg_unstoppable_kill_name" version="1">Неудержимость</content>
     <content contentuid="hbg_unstoppable_kill_desc" version="1">За каждое убийство вы получаете заряд Неудержимости (максимум 3). Каждый заряд поглощает один удар, делая вас неуязвимым.</content>
-
-    <content contentuid="hbg_erasure_name" version="1">Стирание Слабых</content>
-    <content contentuid="hbg_erasure_desc" version="1">Обратите слабого врага в прах. Цель рассыпается, как при дезинтеграции. Работает только на врагах, чей уровень на 3 или более ниже вашего. Раз за бой.</content>
 
     <!-- ===== КИНЖАЛ БААЛА ===== -->
     <content contentuid="hbg_dagger_display_name" version="1">Кровожадность</content>
@@ -56,6 +53,12 @@
     <content contentuid="hbg_corpse_explosion_name" version="1">Подрыв трупа</content>
     <content contentuid="hbg_corpse_explosion_desc" version="1">Взорвать мёртвое тело мощным некромантическим импульсом. Наносит 12d6 урона огнём и 6d6 урона некросом в радиусе 6м, поджигает цели. Раз за бой.</content>
 
+    <content contentuid="hbg_slaughter_name" version="1">Резня Баала</content>
+    <content contentuid="hbg_slaughter_desc" version="1">Обрушьтесь на врага серией из четырёх ударов основным оружием. Каждый успешный удар добавляет 5d10 урона типа оружия и срабатывает доп. эффекты оружия. Доступно с 8 уровня. Раз за бой.</content>
+
+    <content contentuid="hbg_parry_name" version="1">Парирование Баала</content>
+    <content contentuid="hbg_parry_desc" version="1">Когда враг промахивается по вам ближней атакой, а вторая рука свободна, потратьте реакцию на контратаку основным оружием. Раз за ход.</content>
+
     <!-- ===== АМУЛЕТ БААЛА ===== -->
     <content contentuid="hbg_amulet_display_name" version="1">Амулет Баала</content>
     <content contentuid="hbg_amulet_display_desc" version="1">Амулет бога убийств. +4 к Выносливости. Аура Убийства (с 10 уровня) заставляет ближайших врагов стать уязвимыми к колющему урону. Защищает носителя от проклятия теней.</content>
@@ -71,6 +74,11 @@
 
     <content contentuid="hbg_vuln_piercing_name" version="1">Уязвимость: Колющий</content>
     <content contentuid="hbg_vuln_piercing_desc" version="1">Эта цель уязвима к колющему урону из-за Ауры Убийства.</content>
+
+    <content contentuid="hbg_favor_name" version="1">Благосклонность Баала</content>
+    <content contentuid="hbg_favor_desc" version="1">Каждое убийство даёт заряд Благосклонности Баала: +1 к броскам атаки за каждый заряд. Сбрасывается на длинном отдыхе.</content>
+    <content contentuid="hbg_favor_status_name" version="1">Благосклонность Баала</content>
+    <content contentuid="hbg_favor_status_desc" version="1">+1 к броскам атаки оружием за каждый заряд.</content>
 
     <!-- ===== САПОГИ ===== -->
     <content contentuid="hbg_boots_display_name" version="1">Поступь Жнеца</content>
@@ -100,6 +108,11 @@
 
     <content contentuid="hbg_unhealing_name" version="1">Незаживающие Раны</content>
     <content contentuid="hbg_unhealing_desc" version="1">Цель ваших атак не может восстанавливать здоровье в течение 2 ходов.</content>
+
+    <content contentuid="hbg_tempo_name" version="1">Темп Баала</content>
+    <content contentuid="hbg_tempo_desc" version="1">При критическом ударе 25% шанс мгновенно вернуть одно главное &lt;LSTag Tooltip="ActionPoint"&gt;действие&lt;/LSTag&gt;. Один раз за ход.</content>
+    <content contentuid="hbg_tempo_status_name" version="1">Темп Баала</content>
+    <content contentuid="hbg_tempo_status_desc" version="1">Критический удар вернул вам действие.</content>
 
     <!-- ===== ПЛАЩ ===== -->
     <content contentuid="hbg_cloak_display_name" version="1">Саван Баала</content>
@@ -148,11 +161,14 @@
 
     <!-- ===== СВЯЗКА БОМБ БААЛА ===== -->
     <content contentuid="hbg_bombs_display_name" version="1">Пистолет Баала</content>
-    <content contentuid="hbg_bombs_display_desc" version="1">Пистолет, освящённый Владыкой Убийств. Даёт способности «Осколочная Граната» и «Подрывная Пуля».</content>
+    <content contentuid="hbg_bombs_display_desc" version="1">Пистолет, освящённый Владыкой Убийств. Даёт способности «Осколочная Граната», «Пуля Казни» и «Дымовая Бомба».</content>
 
     <content contentuid="hbg_bomb_shrapnel_name" version="1">Осколочная Граната</content>
     <content contentuid="hbg_bomb_shrapnel_desc" version="1">Бросьте осколочную гранату, наносящую колющий урон, равный удвоенному уровню персонажа, в радиусе 4м. Цели получают Кровотечение (8 ходов) и Глубокую Рану (4 хода). Испытание Ловкости КС 14. Раз за бой.</content>
 
-    <content contentuid="hbg_bomb_demolition_name" version="1">Подрывная Пуля</content>
-    <content contentuid="hbg_bomb_demolition_desc" version="1">Выстрелите взрывной пулей по цели: 2d6 колющего урона при попадании и детонация уровня «Огненного Шара» в её точке (8d6 огня, радиус 5м, Ловкость КС 14 — половина). Раз за бой.</content>
+    <content contentuid="hbg_bomb_executioner_name" version="1">Пуля Казни</content>
+    <content contentuid="hbg_bomb_executioner_desc" version="1">Выстрел в висок врагу, чьё здоровье ≤ 30%. Цель обращается в прах, получая 6d8 колющего и 4d6 некротического урона. Раз за бой, бонусное действие. Доступно с 5 уровня.</content>
+
+    <content contentuid="hbg_bomb_smoke_name" version="1">Дымовая Бомба</content>
+    <content contentuid="hbg_bomb_smoke_desc" version="2">Бросьте под ноги дымовую гранату. Создаёт облако тумана радиусом 4м на 2 хода. Вы становитесь невидимым на 3 хода, враги в облаке ослеплены на 2 хода. Раз за бой, бонусное действие. Доступно с 3 уровня.</content>
 </contentList>
