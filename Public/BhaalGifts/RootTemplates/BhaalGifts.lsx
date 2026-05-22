@@ -311,6 +311,8 @@
                     <attribute id="Name" type="LSString" value="WPN_BhaalBombs"/>
                     <attribute id="Type" type="FixedString" value="item"/>
                     <attribute id="ParentTemplateId" type="FixedString" value="86cf2a59-0e68-4cb6-90d8-2e3010d6c24b"/>
+                    <attribute id="VisualTemplate" type="FixedString" value="2a56fa22-7375-48ea-b83c-9ab001bc6e7b"/>
+                    <attribute id="EquipmentTypeID" type="guid" value="165197f7-fee0-478d-8ee5-826cc53b0bec"/>
                     <attribute id="Stats" type="FixedString" value="WPN_BhaalBombs"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hbg_bombs_display_name" version="1"/>
                     <attribute id="Description" type="TranslatedString" handle="hbg_bombs_display_desc" version="1"/>
