@@ -148,8 +148,11 @@
 
     <!-- ===== СВЯЗКА БОМБ БААЛА ===== -->
     <content contentuid="hbg_bombs_display_name" version="1">Пистолет Баала</content>
-    <content contentuid="hbg_bombs_display_desc" version="1">Двуручный пистолет, освящённый Владыкой Убийств. Удерживается обеими руками, но стреляет с одной ладони. Даёт способность метать осколочную гранату.</content>
+    <content contentuid="hbg_bombs_display_desc" version="1">Пистолет, освящённый Владыкой Убийств. Даёт способности «Осколочная Граната» и «Подрывная Пуля».</content>
 
     <content contentuid="hbg_bomb_shrapnel_name" version="1">Осколочная Граната</content>
     <content contentuid="hbg_bomb_shrapnel_desc" version="1">Бросьте осколочную гранату, наносящую колющий урон, равный удвоенному уровню персонажа, в радиусе 4м. Цели получают Кровотечение (8 ходов) и Глубокую Рану (4 хода). Испытание Ловкости КС 14. Раз за бой.</content>
+
+    <content contentuid="hbg_bomb_demolition_name" version="1">Подрывная Пуля</content>
+    <content contentuid="hbg_bomb_demolition_desc" version="1">Выстрелите взрывной пулей по цели: 2d6 колющего урона при попадании и детонация уровня «Огненного Шара» в её точке (8d6 огня, радиус 5м, Ловкость КС 14 — половина). Раз за бой.</content>
 </contentList>

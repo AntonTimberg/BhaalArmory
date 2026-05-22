@@ -21,25 +21,6 @@ data "VerbalIntent" "Damage"
 data "SpellFlags" "IsHarmful;IsSpell"
 data "HitEffect" "41de42e1-56d0-4336-8b44-99fc38281525"
 
-// Shrapnel grenade explosion — damage = character level * 2, bleed 8 + deep wound 4
-new entry "Projectile_BhaalBomb_Shrapnel_Explosion"
-type "SpellData"
-data "SpellType" "Projectile"
-data "AreaRadius" "4"
-data "ExplodeRadius" "4"
-data "SpellRoll" "not SavingThrow(Ability.Dexterity, 14)"
-data "SpellSuccess" "IF(CharacterLevelGreaterThan(0)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(1)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(2)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(3)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(4)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(5)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(6)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(7)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(8)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(9)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(10)):DealDamage(2,Piercing,Magical);IF(CharacterLevelGreaterThan(11)):DealDamage(2,Piercing,Magical);ApplyStatus(BLEEDING,100,8);ApplyStatus(WOUND,100,4)"
-data "SpellFail" "IF(CharacterLevelGreaterThan(0)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(1)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(2)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(3)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(4)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(5)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(6)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(7)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(8)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(9)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(10)):DealDamage(1,Piercing,Magical);IF(CharacterLevelGreaterThan(11)):DealDamage(1,Piercing,Magical)"
-data "TargetConditions" "not Dead()"
-data "Trajectories" "1ce97707-9c10-4199-8d91-44621939918e,5958e05a-222c-40ab-88f7-f5ecf1b61d78,1ed1af36-bbf0-4020-8ec0-a464cf272131"
-data "DisplayName" "hbg_bomb_shrapnel_name"
-data "Description" "hbg_bomb_shrapnel_desc"
-data "CastTextEvent" "Cast"
-data "VerbalIntent" "Damage"
-data "SpellFlags" "IsHarmful;IsSpell"
-data "DamageType" "Piercing"
-data "HitEffect" "1d00a392-5444-4533-b125-d4cafc7e496a"
-
 // ============================================================
 // BHAAL PISTOL — custom one-handed shot (inlined from SOB)
 // ============================================================

@@ -148,8 +148,11 @@
 
     <!-- ===== BHAAL BOMB BANDOLIER ===== -->
     <content contentuid="hbg_bombs_display_name" version="1">Bhaal's Pistol</content>
-    <content contentuid="hbg_bombs_display_desc" version="1">A two-handed pistol consecrated to the Lord of Murder. Though wielded with both hands, it fires from a single palm. Grants the Shrapnel Grenade ability.</content>
+    <content contentuid="hbg_bombs_display_desc" version="1">A pistol consecrated to the Lord of Murder. Grants the Shrapnel Grenade and Demolition Bullet abilities.</content>
 
     <content contentuid="hbg_bomb_shrapnel_name" version="1">Shrapnel Grenade</content>
     <content contentuid="hbg_bomb_shrapnel_desc" version="1">Hurl a shrapnel grenade dealing Piercing damage equal to twice your character level in a 4m radius. Targets suffer Bleeding (8 turns) and Deep Wound (4 turns). Dexterity DC 14. Once per combat.</content>
+
+    <content contentuid="hbg_bomb_demolition_name" version="1">Demolition Bullet</content>
+    <content contentuid="hbg_bomb_demolition_desc" version="1">Fire an explosive bullet at the target, dealing 2d6 Piercing damage on hit and triggering a Fireball-strength detonation at their location (8d6 Fire, 5m radius, Dexterity DC 14 for half). Once per combat.</content>
 </contentList>
